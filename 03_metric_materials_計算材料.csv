@@ -1,0 +1,752 @@
+﻿指標ID,指標名,材料種別,レコード／モジュール,項目,出典項目,出典URL
+M001,オンタイム引渡 (%) - My プロジェクト,計算式,,実現したオンタイム引渡,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-delivery-my-projects-metric
+M001,オンタイム引渡 (%) - My プロジェクト,従属データ,不動産プロジェクト,不動産プロジェクトの実終了日,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-delivery-my-projects-metric
+M001,オンタイム引渡 (%) - My プロジェクト,従属データ,不動産プロジェクト,不動産プロジェクトの計画上の終了日,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-delivery-my-projects-metric
+M001,オンタイム引渡 (%) - My プロジェクト,データを生む業務,,スペース利用契約 (不動産業),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-delivery-my-projects-metric
+M001,オンタイム引渡 (%) - My プロジェクト,データを生む業務,,スペース割り振り (施設),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-delivery-my-projects-metric
+M001,オンタイム引渡 (%) - My プロジェクト,格納先（ファクトBO）,triMetricFact,triREProjectFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-delivery-my-projects-metric
+M001,オンタイム引渡 (%) - My プロジェクト,集計対象条件,,データ・ポイント更新期間に完了した不動産プロジェクト アクティブなユーザー (USERID) = プロジェクト・マネージャー,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-delivery-my-projects-metric
+M002,オンタイム引渡 (%) - My タスク,計算式,,実現したオンタイム引渡,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-delivery-my-tasks-metric
+M002,オンタイム引渡 (%) - My タスク,従属データ,タスク,実終了日,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-delivery-my-tasks-metric
+M002,オンタイム引渡 (%) - My タスク,従属データ,タスク,計画上の終了日,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-delivery-my-tasks-metric
+M002,オンタイム引渡 (%) - My タスク,データを生む業務,,スペース利用契約 (不動産業),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-delivery-my-tasks-metric
+M002,オンタイム引渡 (%) - My タスク,データを生む業務,,スペース割り振り (施設),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-delivery-my-tasks-metric
+M002,オンタイム引渡 (%) - My タスク,格納先（ファクトBO）,triMetricFact,triREProjectFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-delivery-my-tasks-metric
+M002,オンタイム引渡 (%) - My タスク,集計対象条件,,データ・ポイント更新期間に完了したタスク アクティブなユーザー (USERID) = プロジェクト・マネージャー,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-delivery-my-tasks-metric
+M003,オンタイム引渡 (%) - 不動産プロジェクト,計算式,,実現したオンタイム引渡,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-delivery-real-estate-projects-metric
+M003,オンタイム引渡 (%) - 不動産プロジェクト,従属データ,不動産プロジェクト,不動産プロジェクトの実終了日,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-delivery-real-estate-projects-metric
+M003,オンタイム引渡 (%) - 不動産プロジェクト,従属データ,不動産プロジェクト,不動産プロジェクトの計画上の終了日,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-delivery-real-estate-projects-metric
+M003,オンタイム引渡 (%) - 不動産プロジェクト,データを生む業務,,スペース利用契約 (不動産業),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-delivery-real-estate-projects-metric
+M003,オンタイム引渡 (%) - 不動産プロジェクト,データを生む業務,,スペース割り振り (施設),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-delivery-real-estate-projects-metric
+M003,オンタイム引渡 (%) - 不動産プロジェクト,格納先（ファクトBO）,triMetricFact,triREProjectFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-delivery-real-estate-projects-metric
+M003,オンタイム引渡 (%) - 不動産プロジェクト,集計対象条件,,完了プロジェクト,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-delivery-real-estate-projects-metric
+M004,オンタイム支払 (%) - My 不動産契約,計算式,,オンタイム支払の件数,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-payments-my-real-estate-contracts-metric
+M004,オンタイム支払 (%) - My 不動産契約,計算式,,支払件数の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-payments-my-real-estate-contracts-metric
+M004,オンタイム支払 (%) - My 不動産契約,従属データ,不動産契約,支払品目,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-payments-my-real-estate-contracts-metric
+M004,オンタイム支払 (%) - My 不動産契約,従属データ,不動産契約,期限,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-payments-my-real-estate-contracts-metric
+M004,オンタイム支払 (%) - My 不動産契約,従属データ,不動産契約,支払日,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-payments-my-real-estate-contracts-metric
+M004,オンタイム支払 (%) - My 不動産契約,データを生む業務,,スペース利用契約 (不動産業),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-payments-my-real-estate-contracts-metric
+M004,オンタイム支払 (%) - My 不動産契約,データを生む業務,,スペース割り振り (施設),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-payments-my-real-estate-contracts-metric
+M004,オンタイム支払 (%) - My 不動産契約,格納先（ファクトBO）,triMetricFact,triREPaymentFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-payments-my-real-estate-contracts-metric
+M004,オンタイム支払 (%) - My 不動産契約,集計対象条件,,データ・ポイント更新期間に支払われた支払品目 アクティブなユーザー (USERID) = プロジェクト・マネージャーでフィルタリングされた不動産契約,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-payments-my-real-estate-contracts-metric
+M005,ポートフォリオ・リース (%) (% Portfolio Leased),計算式,,賃貸可能面積の合計 (アクティブな不動産リース),寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-portfolio-leased-metric
+M005,ポートフォリオ・リース (%) (% Portfolio Leased),計算式,,賃貸可能面積の合計 (すべてのアクティブな不動産契約),寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-portfolio-leased-metric
+M005,ポートフォリオ・リース (%) (% Portfolio Leased),従属データ,不動産契約,不動産リースからの賃貸可能面積の合計,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-portfolio-leased-metric
+M005,ポートフォリオ・リース (%) (% Portfolio Leased),従属データ,不動産契約,すべてのアクティブな不動産契約からの賃貸可能面積の合計 (所有物件 + リース),計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-portfolio-leased-metric
+M005,ポートフォリオ・リース (%) (% Portfolio Leased),データを生む業務,,スペース利用契約 (不動産業),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-portfolio-leased-metric
+M005,ポートフォリオ・リース (%) (% Portfolio Leased),データを生む業務,,スペース割り振り (施設),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-portfolio-leased-metric
+M005,ポートフォリオ・リース (%) (% Portfolio Leased),格納先（ファクトBO）,triMetricFact,triREContractFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-portfolio-leased-metric
+M005,ポートフォリオ・リース (%) (% Portfolio Leased),集計対象条件,,アクティブな不動産契約 (開始日 < = 今日および満了日> = 今日以降、状況 NOT IN (「リタイア済み」、「解約済み」)),静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-portfolio-leased-metric
+M006,監査からの削減 (%),計算式,,支払差額の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-savings-from-audits
+M006,監査からの削減 (%),計算式,,貸主あたりの合計請求金額,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-savings-from-audits
+M006,監査からの削減 (%),従属データ,支払調整,貸主あたりの請求金額,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-savings-from-audits
+M006,監査からの削減 (%),従属データ,支払調整,支払差額,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-savings-from-audits
+M006,監査からの削減 (%),データを生む業務,,スペース利用契約 (不動産業),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-savings-from-audits
+M006,監査からの削減 (%),データを生む業務,,スペース割り振り (施設),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-savings-from-audits
+M006,監査からの削減 (%),格納先（ファクトBO）,triMetricFact,triREPaymentReconciliationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-savings-from-audits
+M006,監査からの削減 (%),集計対象条件,,データ・ポイント更新期間内の支払調整 アクティブなユーザー (USERID) = プロジェクト・マネージャーでフィルタリングされた不動産契約,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-savings-from-audits
+M007,1 人あたりの面積 - 不動産契約,計算式,,合計賃貸可能面積,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-area-per-person-re-contracts-metric
+M007,1 人あたりの面積 - 不動産契約,計算式,,合計人数,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-area-per-person-re-contracts-metric
+M007,1 人あたりの面積 - 不動産契約,従属データ,不動産契約 (triREContract),合計賃貸可能面積,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-area-per-person-re-contracts-metric
+M007,1 人あたりの面積 - 不動産契約,従属データ,不動産契約 (triREContract),合計人数,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-area-per-person-re-contracts-metric
+M007,1 人あたりの面積 - 不動産契約,データを生む業務,,スペース利用契約,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-area-per-person-re-contracts-metric
+M007,1 人あたりの面積 - 不動産契約,データを生む業務,,スペース割り振り,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-area-per-person-re-contracts-metric
+M007,1 人あたりの面積 - 不動産契約,格納先（ファクトBO）,triMetricFact,triREContractFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-area-per-person-re-contracts-metric
+M007,1 人あたりの面積 - 不動産契約,集計対象条件,,アクティブな不動産契約 (開始日 < = 今日および満了日> = 今日以降、状況 NOT IN (「リタイア済み」、「解約済み」)),静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-area-per-person-re-contracts-metric
+M008,平均未処理日数,計算式,,未処理売掛金の平均 (今日から支払期日まで),寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-average-days-outstanding-metric
+M008,平均未処理日数,判定条件,支払品目,未処理売掛金 = 支払品目 (期日が今日以前で、かつ支払われた日付が NULL),計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-average-days-outstanding-metric
+M008,平均未処理日数,従属データ,支払品目,支払期日,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-average-days-outstanding-metric
+M008,平均未処理日数,従属データ,支払品目,支払日,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-average-days-outstanding-metric
+M008,平均未処理日数,データを生む業務,,スペース利用契約 (不動産業),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-average-days-outstanding-metric
+M008,平均未処理日数,データを生む業務,,スペース割り振り (施設),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-average-days-outstanding-metric
+M008,平均未処理日数,格納先（ファクトBO）,triMetricFact,triREPaymentFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-average-days-outstanding-metric
+M008,平均未処理日数,集計対象条件,,データ・ポイント更新期間に支払われた支払品目 アクティブなユーザー (USERID) = 契約管理者でフィルタリングされた不動産契約,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-average-days-outstanding-metric
+M009,総合トランザクション平均スコア,計算式,,総合シグマ・スコア,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-average-overall-transaction-score-metric
+M009,総合トランザクション平均スコア,従属データ,不動産プロジェクト,総合シグマ・スコア,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-average-overall-transaction-score-metric
+M009,総合トランザクション平均スコア,データを生む業務,,スペース利用契約 (不動産業),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-average-overall-transaction-score-metric
+M009,総合トランザクション平均スコア,格納先（ファクトBO）,triMetricFact,triREProjectFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-average-overall-transaction-score-metric
+M009,総合トランザクション平均スコア,集計対象条件,,データ・ポイント更新期間に完了した不動産プロジェクト,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-average-overall-transaction-score-metric
+M010,総合トランザクション平均スコア - My プロジェクト,計算式,,総合シグマ・スコア,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-average-overall-transaction-score-my-projects-metric
+M010,総合トランザクション平均スコア - My プロジェクト,従属データ,不動産プロジェクト,総合シグマ・スコア,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-average-overall-transaction-score-my-projects-metric
+M010,総合トランザクション平均スコア - My プロジェクト,データを生む業務,,スペース利用契約 (不動産業),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-average-overall-transaction-score-my-projects-metric
+M010,総合トランザクション平均スコア - My プロジェクト,データを生む業務,,スペース割り振り (施設),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-average-overall-transaction-score-my-projects-metric
+M010,総合トランザクション平均スコア - My プロジェクト,格納先（ファクトBO）,triMetricFact,triREProjectFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-average-overall-transaction-score-my-projects-metric
+M010,総合トランザクション平均スコア - My プロジェクト,集計対象条件,,データ・ポイント更新期間に完了した不動産プロジェクト アクティブなユーザー (USERID) = プロジェクト・マネージャー,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-average-overall-transaction-score-my-projects-metric
+M011,コールバック指数,計算式,,「コールバック」が TRUE である完了した改良タスクの数の合計 / 完了した改良タスクの数の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-callback-index-metric
+M011,コールバック指数,判定条件,,「コールバック」フィールド = TRUE および「タスク・タイプ」 = 「改良」である完了したタスクの数の合計,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-callback-index-metric
+M011,コールバック指数,判定条件,,「タスク・タイプ」 = 「改良」である完了したタスクの数の合計,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-callback-index-metric
+M011,コールバック指数,データを生む業務,,タスク管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-callback-index-metric
+M011,コールバック指数,データを生む業務,,サービス管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-callback-index-metric
+M011,コールバック指数,格納先（ファクトBO）,triMetricFact,triTaskResourceFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-callback-index-metric
+M011,コールバック指数,集計対象条件,,タスク (「担当組織」セクションがあるタスク・タイプのみ) 状況 = 「完了」または「クローズ済み」のタスク,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-callback-index-metric
+M012,資本コスト (実績 vs 予算),計算式,,資本コスト (実績 vs 予算),寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-capital-cost-actual-vs-budget-metric
+M012,資本コスト (実績 vs 予算),補足,,財務サマリー・オブジェクトは、合計資本コストのサマリー・データを提供します。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-capital-cost-actual-vs-budget-metric
+M012,資本コスト (実績 vs 予算),格納先（ファクトBO）,triMetricFact,triBuildingCostFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-capital-cost-actual-vs-budget-metric
+M012,資本コスト (実績 vs 予算),集計対象条件,,コスト・タイプ = 資本,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-capital-cost-actual-vs-budget-metric
+M013,資本コスト (予算、実際、予測の比較),計算式,,資本コスト (予算、実際、予測の比較),寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-capital-cost-budget-vs-actual-vs-forecast-metric
+M013,資本コスト (予算、実際、予測の比較),補足,,財務サマリー・オブジェクトは、合計資本コストのサマリー・データを提供します。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-capital-cost-budget-vs-actual-vs-forecast-metric
+M013,資本コスト (予算、実際、予測の比較),格納先（ファクトBO）,triMetricFact,triBuildingCostFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-capital-cost-budget-vs-actual-vs-forecast-metric
+M013,資本コスト (予算、実際、予測の比較),集計対象条件,,コスト・タイプ = 資本,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-capital-cost-budget-vs-actual-vs-forecast-metric
+M014,資本更新指数,計算式,,資本コスト合計 / 現在の再取得価額 (CRV) の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-capital-renewal-index-metric
+M014,資本更新指数,判定条件,資本コスト合計,「コスト・タイプ」 = 「資本」でフィルタリングされた財務サマリー・テーブルの合計,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-capital-renewal-index-metric
+M014,資本更新指数,判定条件,現在の再取得価額の合計,「建物の状態アセスメント (Building Condition Assessment)」タブには、建物ごとの現在の再取得価額が保持されています (CRV = 総面積 * 面積あたりのコスト)。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-capital-renewal-index-metric
+M014,資本更新指数,データを生む業務,,建物 (「現在の再取得価額」フィールド),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-capital-renewal-index-metric
+M014,資本更新指数,データを生む業務,,外部の企業システムからの財務データ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-capital-renewal-index-metric
+M014,資本更新指数,格納先（ファクトBO）,triMetricFact,triBuildingFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-capital-renewal-index-metric
+M014,資本更新指数,集計対象条件,,アクティブ状況のディメンションのみを含む,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-capital-renewal-index-metric
+M015,予算に対する変更要求 (資本プロジェクトのみ),計算式,,プロジェクト合計変更要求 / 現行プロジェクト予算,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-change-orders-budget-metric
+M015,予算に対する変更要求 (資本プロジェクトのみ),格納先（ファクトBO）,triMetricFact,triCapitalProjectFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-change-orders-budget-metric
+M015,予算に対する変更要求 (資本プロジェクトのみ),集計対象条件,,アクティブ・プロジェクトでの変更要求 承認済み変更要求 (承認されてクローズされた変更要求を含む),静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-change-orders-budget-metric
+M016,契約に対する変更要求,計算式,,契約変更要求の合計金額 / 契約の元のコミットメント,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-change-orders-contract-metric
+M016,契約に対する変更要求,判定条件,,契約変更要求の合計金額 = 契約ごとの各変更要求の「変更額」の合計,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-change-orders-contract-metric
+M016,契約に対する変更要求,判定条件,,契約の元のコミットメント = 「契約の一般情報 (Contract General)」ページの「サマリー」セクションの「A. 元のコミットメント」の金額,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-change-orders-contract-metric
+M016,契約に対する変更要求,格納先（ファクトBO）,triMetricFact,triCapitalProjectContractFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-change-orders-contract-metric
+M016,契約に対する変更要求,集計対象条件,,アクティブ・プロジェクト,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-change-orders-contract-metric
+M017,配置換えの割合 (%),計算式,,移動数の合計 / 作業者数の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-churn-rate-metric
+M017,配置換えの割合 (%),従属データ,移動,期間ごとの、移動した人物の数 (入出ログより),計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-churn-rate-metric
+M017,配置換えの割合 (%),従属データ,作業者数の合計,スペースに割り当てられている人物の数,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-churn-rate-metric
+M017,配置換えの割合 (%),格納先（ファクトBO）,triMetricFact,triSpaceAllocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-churn-rate-metric
+M017,配置換えの割合 (%),集計対象条件,,アクティブな建物 アクティブなフロア アクティブなスペース,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-churn-rate-metric
+M018,状態指数,計算式,,欠陥の合計コスト / 現在の再取得価額の合計 (CRV),寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-condition-index-metric
+M018,状態指数,判定条件,,欠陥の合計コスト = 「優先順位」がレベル 1 であり、「状況」が「リタイア済み」または「完了」ではない欠陥の合計コスト。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-condition-index-metric
+M018,状態指数,判定条件,現在の再取得価額の合計,「建物の状態アセスメント (Building Condition Assessment)」タブには、建物ごとの現在の再取得価額が保持されています (CRV = 総面積 * 面積あたりのコスト)。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-condition-index-metric
+M018,状態指数,従属データ,現在の再取得価額の合計,建設システム項目 (建設システムごとの現在の再取得価額 (CRV)),計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-condition-index-metric
+M018,状態指数,データを生む業務,,施設アセスメント,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-condition-index-metric
+M018,状態指数,データを生む業務,,タスク管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-condition-index-metric
+M018,状態指数,データを生む業務,,サービス管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-condition-index-metric
+M018,状態指数,格納先（ファクトBO）,triMetricFact,triBuildingSystemItemFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-condition-index-metric
+M018,状態指数,集計対象条件,,アクティブ状況のディメンションのみを含む。 ロケーション 組織 担当者,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-condition-index-metric
+M019,コンタクト・センターの効率,計算式,,期間 (開始時間 - 終了時間) / 要求数の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-contact-center-efficiency-metric
+M019,コンタクト・センターの効率,補足,,コンタクト・センター通信レコード - 開始時間 – 終了時間,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-contact-center-efficiency-metric
+M019,コンタクト・センターの効率,データを生む業務,,コンタクト・センター,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-contact-center-efficiency-metric
+M019,コンタクト・センターの効率,格納先（ファクトBO）,triMetricFact,triContactCenterFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-contact-center-efficiency-metric
+M019,コンタクト・センターの効率,集計対象条件,,なし,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-contact-center-efficiency-metric
+M020,契約期限内完了率,計算式,,オンタイムに完了した契約の合計数 / 契約の合計数,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-contract-time-completion-rate-metric
+M020,契約期限内完了率,判定条件,,オンタイムに完了した契約 = 実際の終了日 (triFinalCompletionDA) < 計画上の終了日 (triContractEndDA),計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-contract-time-completion-rate-metric
+M020,契約期限内完了率,格納先（ファクトBO）,triMetricFact,triCapitalProjectContractFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-contract-time-completion-rate-metric
+M020,契約期限内完了率,集計対象条件,,完了した契約,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-contract-time-completion-rate-metric
+M021,運用コスト (金額/面積),計算式,,運用コスト合計 / 面積 (面積単位) 運用コスト合計には、メンテナンス、維持管理、および公共料金が含まれます。,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-operations-area-metric
+M021,運用コスト (金額/面積),従属データ,,財務サマリー・オブジェクトは運用コストのサマリー・データを提供します,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-operations-area-metric
+M021,運用コスト (金額/面積),従属データ,面積,建物の賃貸可能面積 (平方フィートまたは正方形)。 メートル),計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-operations-area-metric
+M021,運用コスト (金額/面積),補足,,ファクト・テーブルでは、総面積と利用可能面積の値も取り込みます。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-operations-area-metric
+M021,運用コスト (金額/面積),格納先（ファクトBO）,triMetricFact,triBuildingFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-operations-area-metric
+M021,運用コスト (金額/面積),集計対象条件,,アクティブな建物 運用コスト,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-operations-area-metric
+M022,運用コスト ($/人),計算式,,運用コスト合計 / 作業者数の合計 運用コスト合計には、メンテナンス、維持管理、および公共料金が含まれます。,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-operations-person-metric
+M022,運用コスト ($/人),従属データ,,財務サマリー・オブジェクトは運用コストのサマリー・データを提供します,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-operations-person-metric
+M022,運用コスト ($/人),従属データ,作業者,建物のスペース、フロア、または建物に割り当てられた人。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-operations-person-metric
+M022,運用コスト ($/人),格納先（ファクトBO）,triMetricFact,triBuildingFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-operations-person-metric
+M022,運用コスト ($/人),集計対象条件,,アクティブな建物 運用コスト,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-operations-person-metric
+M023,運用コスト (サービス・タイプ別),計算式,,サービス・タイプ別の運用コスト合計 サービス・タイプ別の運用コスト合計には、メンテナンス、維持管理、および公共料金が含まれます。,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-operations-by-service-type-metric
+M023,運用コスト (サービス・タイプ別),補足,,財務サマリー・オブジェクトは運用コストのサマリー・データを提供します,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-operations-by-service-type-metric
+M023,運用コスト (サービス・タイプ別),格納先（ファクトBO）,triMetricFact,triBuildingCostFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-operations-by-service-type-metric
+M023,運用コスト (サービス・タイプ別),集計対象条件,,アクティブな建物 運用コスト,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-operations-by-service-type-metric
+M024,面積あたりのコスト (リース済み) - 不動産契約,計算式,,合計不動産コスト (リース済み) / 合計賃貸可能面積,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-area-leased-re-contracts-metric
+M024,面積あたりのコスト (リース済み) - 不動産契約,従属データ,合計不動産コスト,支払品目から取り込まれたリース不動産コスト,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-area-leased-re-contracts-metric
+M024,面積あたりのコスト (リース済み) - 不動産契約,従属データ,不動産リース (triREContract),合計賃貸可能面積,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-area-leased-re-contracts-metric
+M024,面積あたりのコスト (リース済み) - 不動産契約,データを生む業務,,スペース利用契約 (不動産業),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-area-leased-re-contracts-metric
+M024,面積あたりのコスト (リース済み) - 不動産契約,データを生む業務,,スペース割り振り (施設),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-area-leased-re-contracts-metric
+M024,面積あたりのコスト (リース済み) - 不動産契約,格納先（ファクトBO）,triMetricFact,triREContractFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-area-leased-re-contracts-metric
+M024,面積あたりのコスト (リース済み) - 不動産契約,集計対象条件,,アクティブな不動産契約 (開始日 < = 今日および満了日> = 今日以降、状況 NOT IN (「リタイア済み」、「解約済み」)),静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-area-leased-re-contracts-metric
+M025,面積あたりのコスト (所有) - 不動産契約,計算式,,合計不動産コスト (所有) / 合計賃貸可能面積,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-area-owned-re-contracts-metric
+M025,面積あたりのコスト (所有) - 不動産契約,従属データ,合計不動産コスト,支払品目から取り込まれた所有物件不動産コスト,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-area-owned-re-contracts-metric
+M025,面積あたりのコスト (所有) - 不動産契約,従属データ,所有物件,合計賃貸可能面積,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-area-owned-re-contracts-metric
+M025,面積あたりのコスト (所有) - 不動産契約,データを生む業務,,スペース利用契約 (不動産業),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-area-owned-re-contracts-metric
+M025,面積あたりのコスト (所有) - 不動産契約,データを生む業務,,スペース割り振り (施設),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-area-owned-re-contracts-metric
+M025,面積あたりのコスト (所有) - 不動産契約,格納先（ファクトBO）,triMetricFact,triREContractFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-area-owned-re-contracts-metric
+M025,面積あたりのコスト (所有) - 不動産契約,集計対象条件,,アクティブな不動産契約 (開始日 < = 今日および満了日> = 今日以降、状況 NOT IN (「リタイア済み」、「解約済み」)),静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-area-owned-re-contracts-metric
+M026,1 人あたりのコスト - 不動産契約,計算式,,不動産コスト合計 / 合計人数,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-person-re-contracts-metric
+M026,1 人あたりのコスト - 不動産契約,従属データ,合計不動産コスト,支払品目から取り込まれた不動産コスト,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-person-re-contracts-metric
+M026,1 人あたりのコスト - 不動産契約,従属データ,不動産契約,合計人数,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-person-re-contracts-metric
+M026,1 人あたりのコスト - 不動産契約,データを生む業務,,スペース利用契約 (不動産業),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-person-re-contracts-metric
+M026,1 人あたりのコスト - 不動産契約,データを生む業務,,スペース割り振り (施設),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-person-re-contracts-metric
+M026,1 人あたりのコスト - 不動産契約,格納先（ファクトBO）,triMetricFact,triREContractFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-person-re-contracts-metric
+M026,1 人あたりのコスト - 不動産契約,集計対象条件,,アクティブな不動産契約 (開始日 < = 今日および満了日> = 今日以降、状況 NOT IN (「リタイア済み」、「解約済み」)),静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-person-re-contracts-metric
+M027,席あたりのコスト – 不動産契約,計算式,,不動産コスト合計 / 合計席数,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-seat-re-contracts-metric
+M027,席あたりのコスト – 不動産契約,従属データ,合計不動産コスト,支払品目から取り込まれた不動産リース・コスト,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-seat-re-contracts-metric
+M027,席あたりのコスト – 不動産契約,従属データ,不動産契約,合計席数,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-seat-re-contracts-metric
+M027,席あたりのコスト – 不動産契約,データを生む業務,,スペース利用契約 (不動産業),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-seat-re-contracts-metric
+M027,席あたりのコスト – 不動産契約,データを生む業務,,スペース割り振り (施設),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-seat-re-contracts-metric
+M027,席あたりのコスト – 不動産契約,格納先（ファクトBO）,triMetricFact,triREContractFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-seat-re-contracts-metric
+M027,席あたりのコスト – 不動産契約,集計対象条件,,アクティブな不動産契約 (開始日 < = 今日および満了日> = 今日以降、状況 NOT IN (「リタイア済み」、「解約済み」)),静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-cost-per-seat-re-contracts-metric
+M028,現在の予算対予測,計算式,,プロジェクト予算 / 最終予算予測,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-current-budget-forecast-metric
+M028,現在の予算対予測,データを生む業務,,資本プロジェクト,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-current-budget-forecast-metric
+M028,現在の予算対予測,データを生む業務,,予算,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-current-budget-forecast-metric
+M028,現在の予算対予測,データを生む業務,,変更要求管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-current-budget-forecast-metric
+M028,現在の予算対予測,格納先（ファクトBO）,triMetricFact,triCapitalProjectFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-current-budget-forecast-metric
+M028,現在の予算対予測,集計対象条件,,状況: アクティブ・プロジェクトと修正中のプロジェクトのみ。,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-current-budget-forecast-metric
+M029,維持管理コスト / 面積 ($/面積),計算式,,保全コスト合計 / 施設面積合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-custodial-housekeeping-costs-area-area-metric
+M029,維持管理コスト / 面積 ($/面積),判定条件,保全コスト合計,「コスト・タイプ」 = 「保全」でフィルタリングされた財務サマリー・テーブルの合計,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-custodial-housekeeping-costs-area-area-metric
+M029,維持管理コスト / 面積 ($/面積),従属データ,合計面積,建物の賃貸可能面積,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-custodial-housekeeping-costs-area-area-metric
+M029,維持管理コスト / 面積 ($/面積),データを生む業務,,建物 (面積の計算),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-custodial-housekeeping-costs-area-area-metric
+M029,維持管理コスト / 面積 ($/面積),データを生む業務,,外部の企業システムからの財務データ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-custodial-housekeeping-costs-area-area-metric
+M029,維持管理コスト / 面積 ($/面積),格納先（ファクトBO）,triMetricFact,triBuildingFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-custodial-housekeeping-costs-area-area-metric
+M029,維持管理コスト / 面積 ($/面積),集計対象条件,,コスト・タイプ分類 = 保全/維持管理,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-custodial-housekeeping-costs-area-area-metric
+M030,お客様満足度管理,計算式,,調査回答スコアの合計 / 調査の最大スコアの合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-customer-satisfaction-facilities-metric
+M030,お客様満足度管理,格納先（ファクトBO）,triMetricFact,triSurveyFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-customer-satisfaction-facilities-metric
+M030,お客様満足度管理,集計対象条件,,アクティブな建物 アクティブなフロア,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-customer-satisfaction-facilities-metric
+M031,密度 (面積/人),計算式,,合計面積 / 作業者数の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-density-areaperson-metric
+M031,密度 (面積/人),従属データ,面積,ドリル・パスまたは対話式フィルターによってフィルタリング/グループ化された面積,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-density-areaperson-metric
+M031,密度 (面積/人),従属データ,人 (作業者),建物内で (スペース、フロア、または建物に) 割り当てられたすべての人物,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-density-areaperson-metric
+M031,密度 (面積/人),格納先（ファクトBO）,triMetricFact,triSpacePeopleFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-density-areaperson-metric
+M031,密度 (面積/人),集計対象条件,,アクティブな建物 アクティブなフロア アクティブなスペース アクティブな人,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-density-areaperson-metric
+M032,密度 (面積/作業ポイント),計算式,,合計面積 / 作業ポイント数の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-density-areaworkpoint-metric
+M032,密度 (面積/作業ポイント),従属データ,面積,ドリル・パスまたは対話式フィルターによってフィルタリングされた面積,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-density-areaworkpoint-metric
+M032,密度 (面積/作業ポイント),判定条件,作業ポイント,スペースのキャパシティー (「作業ポイント」 = TRUE でフィルタリング),計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-density-areaworkpoint-metric
+M032,密度 (面積/作業ポイント),格納先（ファクトBO）,triMetricFact,triSpaceAllocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-density-areaworkpoint-metric
+M032,密度 (面積/作業ポイント),集計対象条件,,アクティブな建物 アクティブなフロア アクティブなスペース,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-density-areaworkpoint-metric
+M033,緊急タスク・コスト比率,計算式,,緊急タスク・コスト合計 / メンテナンス・コスト合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emergency-task-cost-ratio-metric
+M033,緊急タスク・コスト比率,判定条件,,緊急タスク・コストの合計 = 完了したタスクのコストの合計。ここで、「タスクの優先順位」 = 「緊急時」、「状況」 = 「完了」または「クローズ済み」であり、「計画上の終了」は収集期間の範囲内です。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emergency-task-cost-ratio-metric
+M033,緊急タスク・コスト比率,判定条件,,メンテナンス・コストの合計 = 完了したタスクのコストの合計。「状況」 = 「完了」または「クローズ済み」であり、「計画上の終了」は収集期間の範囲内です。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emergency-task-cost-ratio-metric
+M033,緊急タスク・コスト比率,データを生む業務,,タスク管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emergency-task-cost-ratio-metric
+M033,緊急タスク・コスト比率,データを生む業務,,サービス管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emergency-task-cost-ratio-metric
+M033,緊急タスク・コスト比率,データを生む業務,,予防保全ジョブ計画,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emergency-task-cost-ratio-metric
+M033,緊急タスク・コスト比率,データを生む業務,,PM スケジュール,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emergency-task-cost-ratio-metric
+M033,緊急タスク・コスト比率,格納先（ファクトBO）,triMetricFact,triTaskDetailFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emergency-task-cost-ratio-metric
+M033,緊急タスク・コスト比率,集計対象条件,,タスク (「担当組織」セクションがあるタスク・タイプのみ) 状況 = 「完了」または「クローズ済み」のタスク,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emergency-task-cost-ratio-metric
+M034,排出量 (炭素) (米国トン CO2),計算式,,「合計 CO2e 出資比率報告」の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-carbon-us-tons-co2-metric
+M034,排出量 (炭素) (米国トン CO2),計算式,,「CO2 出資比率報告」の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-carbon-us-tons-co2-metric
+M034,排出量 (炭素) (米国トン CO2),計算式,,「輸送出資比率報告」の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-carbon-us-tons-co2-metric
+M034,排出量 (炭素) (米国トン CO2),計算式,,「廃棄物出資比率報告」の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-carbon-us-tons-co2-metric
+M034,排出量 (炭素) (米国トン CO2),計算式,,「他の排出物の出資比率報告」の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-carbon-us-tons-co2-metric
+M034,排出量 (炭素) (米国トン CO2),データを生む業務,,エネルギー・ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-carbon-us-tons-co2-metric
+M034,排出量 (炭素) (米国トン CO2),データを生む業務,,炭素フットプリント・ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-carbon-us-tons-co2-metric
+M034,排出量 (炭素) (米国トン CO2),データを生む業務,,輸送ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-carbon-us-tons-co2-metric
+M034,排出量 (炭素) (米国トン CO2),データを生む業務,,廃棄物ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-carbon-us-tons-co2-metric
+M034,排出量 (炭素) (米国トン CO2),格納先（ファクトBO）,triMetricFact,triLocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-carbon-us-tons-co2-metric
+M034,排出量 (炭素) (米国トン CO2),集計対象条件,,アクティブな土地 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブな炭素フットプリント・ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-carbon-us-tons-co2-metric
+M035,排出量 (炭素) 強度 (ポンド CO2/GSF),計算式,,「合計 CO2e 出資比率報告」の合計排出量の平均,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-carbon-intensity-lbs-co2-gsf-metric
+M035,排出量 (炭素) 強度 (ポンド CO2/GSF),計算式,,CO2 出資比率報告,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-carbon-intensity-lbs-co2-gsf-metric
+M035,排出量 (炭素) 強度 (ポンド CO2/GSF),計算式,,輸送出資比率報告,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-carbon-intensity-lbs-co2-gsf-metric
+M035,排出量 (炭素) 強度 (ポンド CO2/GSF),計算式,,廃棄物出資比率報告,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-carbon-intensity-lbs-co2-gsf-metric
+M035,排出量 (炭素) 強度 (ポンド CO2/GSF),データを生む業務,,エネルギー・ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-carbon-intensity-lbs-co2-gsf-metric
+M035,排出量 (炭素) 強度 (ポンド CO2/GSF),データを生む業務,,炭素フットプリント・ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-carbon-intensity-lbs-co2-gsf-metric
+M035,排出量 (炭素) 強度 (ポンド CO2/GSF),データを生む業務,,輸送ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-carbon-intensity-lbs-co2-gsf-metric
+M035,排出量 (炭素) 強度 (ポンド CO2/GSF),データを生む業務,,廃棄物ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-carbon-intensity-lbs-co2-gsf-metric
+M035,排出量 (炭素) 強度 (ポンド CO2/GSF),格納先（ファクトBO）,triMetricFact,triLocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-carbon-intensity-lbs-co2-gsf-metric
+M035,排出量 (炭素) 強度 (ポンド CO2/GSF),集計対象条件,,土地の除外 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブな炭素フットプリント・ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-carbon-intensity-lbs-co2-gsf-metric
+M036,占有者あたりの排出量 (炭素) 強度 (トン CO2),計算式,,「合計 CO2e 出資比率報告」の合計排出量の平均,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-emissions-carbon-intensity-per-occupant-tons-co2-metric
+M036,占有者あたりの排出量 (炭素) 強度 (トン CO2),計算式,,CO2 出資比率報告,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-emissions-carbon-intensity-per-occupant-tons-co2-metric
+M036,占有者あたりの排出量 (炭素) 強度 (トン CO2),計算式,,輸送出資比率報告,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-emissions-carbon-intensity-per-occupant-tons-co2-metric
+M036,占有者あたりの排出量 (炭素) 強度 (トン CO2),計算式,,廃棄物出資比率報告 / 全体の占有者の平均,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-emissions-carbon-intensity-per-occupant-tons-co2-metric
+M036,占有者あたりの排出量 (炭素) 強度 (トン CO2),データを生む業務,,エネルギー・ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-emissions-carbon-intensity-per-occupant-tons-co2-metric
+M036,占有者あたりの排出量 (炭素) 強度 (トン CO2),データを生む業務,,炭素フットプリント・ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-emissions-carbon-intensity-per-occupant-tons-co2-metric
+M036,占有者あたりの排出量 (炭素) 強度 (トン CO2),格納先（ファクトBO）,triMetricFact,triLocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-emissions-carbon-intensity-per-occupant-tons-co2-metric
+M036,占有者あたりの排出量 (炭素) 強度 (トン CO2),集計対象条件,,土地の除外 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブな炭素フットプリント・ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-emissions-carbon-intensity-per-occupant-tons-co2-metric
+M037,大気中への排出量 (ポンド質量),計算式,,大気中への合計排出量 (排出タイプごと) (キログラム),寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-air-lbs-mass-metric
+M037,大気中への排出量 (ポンド質量),データを生む業務,,排出量ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-air-lbs-mass-metric
+M037,大気中への排出量 (ポンド質量),格納先（ファクトBO）,triMetricFact,triLocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-air-lbs-mass-metric
+M037,大気中への排出量 (ポンド質量),集計対象条件,,アクティブな土地 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブな排出量ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-air-lbs-mass-metric
+M038,大気中への排出量強度 (キログラム/GSF),計算式,,大気中への合計排出量 (キログラム/GSF),寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-air-intensity-kilograms-gsf-metric
+M038,大気中への排出量強度 (キログラム/GSF),データを生む業務,,排出量ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-air-intensity-kilograms-gsf-metric
+M038,大気中への排出量強度 (キログラム/GSF),格納先（ファクトBO）,triMetricFact,triLocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-air-intensity-kilograms-gsf-metric
+M038,大気中への排出量強度 (キログラム/GSF),集計対象条件,,土地の除外 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブな排出量ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-emissions-air-intensity-kilograms-gsf-metric
+M039,エネルギー・コスト (USD),計算式,,合計エネルギー・コスト,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-cost-usd-metric
+M039,エネルギー・コスト (USD),データを生む業務,,エネルギー・ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-cost-usd-metric
+M039,エネルギー・コスト (USD),格納先（ファクトBO）,triMetricFact,triEnergyLogFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-cost-usd-metric
+M039,エネルギー・コスト (USD),集計対象条件,,アクティブな土地 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブなエネルギー・ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-cost-usd-metric
+M040,エネルギー・コスト (USD),計算式,,合計エネルギー・コスト (エネルギー・タイプ別),寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-cost-usd-energy-type-metric
+M040,エネルギー・コスト (USD),データを生む業務,,エネルギー・ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-cost-usd-energy-type-metric
+M040,エネルギー・コスト (USD),格納先（ファクトBO）,triMetricFact,triLocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-cost-usd-energy-type-metric
+M040,エネルギー・コスト (USD),集計対象条件,,アクティブな土地 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブなエネルギー・ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-cost-usd-energy-type-metric
+M041,エネルギー・コスト比率 (%),計算式,,合計エネルギー・コスト / 運用コスト合計 (TCO),寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-cost-ratio-metric
+M041,エネルギー・コスト比率 (%),データを生む業務,,コスト・コード構造,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-cost-ratio-metric
+M041,エネルギー・コスト比率 (%),データを生む業務,,財務状況の概要,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-cost-ratio-metric
+M041,エネルギー・コスト比率 (%),データを生む業務,,エネルギー・ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-cost-ratio-metric
+M041,エネルギー・コスト比率 (%),格納先（ファクトBO）,triMetricFact,triLocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-cost-ratio-metric
+M041,エネルギー・コスト比率 (%),集計対象条件,,アクティブな土地 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブなエネルギー・ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-cost-ratio-metric
+M042,エネルギー利用,計算式,,合計エネルギー利用,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-use-metric
+M042,エネルギー利用,データを生む業務,,エネルギー・ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-use-metric
+M042,エネルギー利用,格納先（ファクトBO）,triMetricFact,triEnergyLogFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-use-metric
+M042,エネルギー利用,集計対象条件,,アクティブな土地 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブなエネルギー・ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-use-metric
+M043,エネルギー利用,計算式,,合計エネルギー利用 (エネルギー・タイプ別),寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-use-energy-type-metric
+M043,エネルギー利用,データを生む業務,,エネルギー・ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-use-energy-type-metric
+M043,エネルギー利用,格納先（ファクトBO）,triMetricFact,triLocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-use-energy-type-metric
+M043,エネルギー利用,集計対象条件,,アクティブな土地 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブなエネルギー・ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-use-energy-type-metric
+M044,冷房度日別のエネルギー利用 (キロワット時),計算式,,合計エネルギー利用 / GSF / 度日,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-energy-use-by-cooling-degree-day-kilowatt-hours-metric
+M044,冷房度日別のエネルギー利用 (キロワット時),補足,,度日の値は、建物レコードから取得します。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-energy-use-by-cooling-degree-day-kilowatt-hours-metric
+M044,冷房度日別のエネルギー利用 (キロワット時),データを生む業務,,エネルギー・ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-energy-use-by-cooling-degree-day-kilowatt-hours-metric
+M044,冷房度日別のエネルギー利用 (キロワット時),格納先（ファクトBO）,triMetricFact,triLocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-energy-use-by-cooling-degree-day-kilowatt-hours-metric
+M044,冷房度日別のエネルギー利用 (キロワット時),集計対象条件,,土地の除外 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブなエネルギー・ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-energy-use-by-cooling-degree-day-kilowatt-hours-metric
+M045,度日合計別のエネルギー利用 (キロワット時/度日単位),計算式,,合計エネルギー利用 / GSF / 度日,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-energy-use-by-degree-day-total-kilowatt-hours-degree-days-metric
+M045,度日合計別のエネルギー利用 (キロワット時/度日単位),補足,,度日の値は、建物レコードから取得します。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-energy-use-by-degree-day-total-kilowatt-hours-degree-days-metric
+M045,度日合計別のエネルギー利用 (キロワット時/度日単位),データを生む業務,,エネルギー・ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-energy-use-by-degree-day-total-kilowatt-hours-degree-days-metric
+M045,度日合計別のエネルギー利用 (キロワット時/度日単位),格納先（ファクトBO）,triMetricFact,triLocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-energy-use-by-degree-day-total-kilowatt-hours-degree-days-metric
+M045,度日合計別のエネルギー利用 (キロワット時/度日単位),集計対象条件,,土地の除外 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブなエネルギー・ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-energy-use-by-degree-day-total-kilowatt-hours-degree-days-metric
+M046,暖房度日別のエネルギー利用 (キロワット時),計算式,,合計エネルギー利用 / GSF / 度日,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-energy-use-by-heating-degree-day-kilowatt-hours-metric
+M046,暖房度日別のエネルギー利用 (キロワット時),補足,,度日の値は、建物レコードから取得します。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-energy-use-by-heating-degree-day-kilowatt-hours-metric
+M046,暖房度日別のエネルギー利用 (キロワット時),データを生む業務,,エネルギー・ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-energy-use-by-heating-degree-day-kilowatt-hours-metric
+M046,暖房度日別のエネルギー利用 (キロワット時),格納先（ファクトBO）,triMetricFact,triLocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-energy-use-by-heating-degree-day-kilowatt-hours-metric
+M046,暖房度日別のエネルギー利用 (キロワット時),集計対象条件,,土地の除外 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブなエネルギー・ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-energy-use-by-heating-degree-day-kilowatt-hours-metric
+M047,エネルギー使用強度 (キロワット時/GSF),計算式,,合計エネルギー利用 / GSF,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-use-intensity-kilowatt-hours-gsf-metric
+M047,エネルギー使用強度 (キロワット時/GSF),データを生む業務,,エネルギー・ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-use-intensity-kilowatt-hours-gsf-metric
+M047,エネルギー使用強度 (キロワット時/GSF),格納先（ファクトBO）,triMetricFact,triLocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-use-intensity-kilowatt-hours-gsf-metric
+M047,エネルギー使用強度 (キロワット時/GSF),集計対象条件,,土地の除外 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブなエネルギー・ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-use-intensity-kilowatt-hours-gsf-metric
+M048,エネルギー使用強度 (メガジュール/GSF),計算式,,合計エネルギー利用 / GSF,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-use-intensity-megajoules-gsf-metric
+M048,エネルギー使用強度 (メガジュール/GSF),データを生む業務,,エネルギー・ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-use-intensity-megajoules-gsf-metric
+M048,エネルギー使用強度 (メガジュール/GSF),格納先（ファクトBO）,triMetricFact,triLocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-use-intensity-megajoules-gsf-metric
+M048,エネルギー使用強度 (メガジュール/GSF),集計対象条件,,土地の除外 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブなエネルギー・ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-energy-use-intensity-megajoules-gsf-metric
+M049,占有者あたりのエネルギー使用強度 (キロワット時/占有者),計算式,,合計エネルギー利用 (エネルギー・タイプ別) / 占有者数の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-energy-use-intensity-per-occupant-kilowatt-hours-occupant-metric
+M049,占有者あたりのエネルギー使用強度 (キロワット時/占有者),データを生む業務,,エネルギー・ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-energy-use-intensity-per-occupant-kilowatt-hours-occupant-metric
+M049,占有者あたりのエネルギー使用強度 (キロワット時/占有者),格納先（ファクトBO）,triMetricFact,triLocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-energy-use-intensity-per-occupant-kilowatt-hours-occupant-metric
+M049,占有者あたりのエネルギー使用強度 (キロワット時/占有者),集計対象条件,,土地の除外 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブなエネルギー・ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-energy-use-intensity-per-occupant-kilowatt-hours-occupant-metric
+M050,占有者あたりのエネルギー使用強度 (キロワット時/占有者),計算式,,合計エネルギー利用 (エネルギー・タイプ別) / 占有者数の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-energy-use-intensity-per-occupant-megajoules-occupant-metric
+M050,占有者あたりのエネルギー使用強度 (キロワット時/占有者),データを生む業務,,エネルギー・ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-energy-use-intensity-per-occupant-megajoules-occupant-metric
+M050,占有者あたりのエネルギー使用強度 (キロワット時/占有者),格納先（ファクトBO）,triMetricFact,triLocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-energy-use-intensity-per-occupant-megajoules-occupant-metric
+M050,占有者あたりのエネルギー使用強度 (キロワット時/占有者),集計対象条件,,土地の除外 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブなエネルギー・ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-energy-use-intensity-per-occupant-megajoules-occupant-metric
+M051,環境チェックリスト格付け (%),計算式,,チェックリスト・カテゴリーおよびチェックリスト項目の格付け,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-environmental-checklist-rating-metric
+M051,環境チェックリスト格付け (%),データを生む業務,,チェックリスト,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-environmental-checklist-rating-metric
+M051,環境チェックリスト格付け (%),格納先（ファクトBO）,triMetricFact,triChecklistItemFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-environmental-checklist-rating-metric
+M051,環境チェックリスト格付け (%),集計対象条件,,アクティブな建物 アクティブなチェックリストと承認済みチェックリスト,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-environmental-checklist-rating-metric
+M052,環境評価調査 (%),計算式,,総合顧客満足度 = 合計調査回答スコア / 調査質問数の合計 (完了した調査質問の平均スコア),寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-environmental-evaluation-survey-metric
+M052,環境評価調査 (%),従属データ,,環境要求評価:,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-environmental-evaluation-survey-metric
+M052,環境評価調査 (%),従属データ,,合計調査回答スコア,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-environmental-evaluation-survey-metric
+M052,環境評価調査 (%),従属データ,,スコアが 0.0 を超える調査質問の総数、該当しない回答の除外、またはその両方。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-environmental-evaluation-survey-metric
+M052,環境評価調査 (%),データを生む業務,,環境調査および評価要求,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-environmental-evaluation-survey-metric
+M052,環境評価調査 (%),格納先（ファクトBO）,triMetricFact,triSurveyFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-environmental-evaluation-survey-metric
+M052,環境評価調査 (%),集計対象条件,,0.0 の質問スコアまたは該当しないものを除外,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-environmental-evaluation-survey-metric
+M053,環境機会分析,計算式,,環境機会 (NPV),寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-environmental-opportunity-analysis-metric
+M053,環境機会分析,データを生む業務,,エネルギー機会 (欠陥),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-environmental-opportunity-analysis-metric
+M053,環境機会分析,格納先（ファクトBO）,triMetricFact,triLocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-environmental-opportunity-analysis-metric
+M053,環境機会分析,集計対象条件,,アクティブな建物 アクティブ 据え置き 完了したエネルギー機会,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-environmental-opportunity-analysis-metric
+M054,環境プロジェクト効率比 (USD/トン CO2),計算式,,環境プロジェクトおよびタスクの合計コスト / 炭素排出量の節減の合計 (USD/トン kWh/年),寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-environmental-project-efficiency-ratio-usd-tons-co2-metric
+M054,環境プロジェクト効率比 (USD/トン CO2),データを生む業務,,プロジェクト管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-environmental-project-efficiency-ratio-usd-tons-co2-metric
+M054,環境プロジェクト効率比 (USD/トン CO2),データを生む業務,,タスク管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-environmental-project-efficiency-ratio-usd-tons-co2-metric
+M054,環境プロジェクト効率比 (USD/トン CO2),データを生む業務,,炭素フットプリント・ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-environmental-project-efficiency-ratio-usd-tons-co2-metric
+M054,環境プロジェクト効率比 (USD/トン CO2),格納先（ファクトBO）,triMetricFact,triCapitalProjectFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-environmental-project-efficiency-ratio-usd-tons-co2-metric
+M054,環境プロジェクト効率比 (USD/トン CO2),集計対象条件,,なし,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-environmental-project-efficiency-ratio-usd-tons-co2-metric
+M055,施設運営の現在の再取得価額 (CRV) 指数,計算式,,メンテナンス・コスト合計 / 現在の再取得価額 (CRV) の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-facility-operating-current-replacement-value-crv-index-metric
+M055,施設運営の現在の再取得価額 (CRV) 指数,判定条件,メンテナンス・コスト合計,「サービス・タイプ」 = 「メンテナンス」でフィルタリングされた財務サマリー・テーブルの合計。 これには、公共料金、保全、および地面などのすべてのメンテナンス関連コストの値が含まれます。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-facility-operating-current-replacement-value-crv-index-metric
+M055,施設運営の現在の再取得価額 (CRV) 指数,判定条件,現在の再取得価額の合計,「建物の状態アセスメント (Building Condition Assessment)」タブには、建物ごとの現在の再取得価額が保持されています (CRV = 総面積 * 面積あたりのコスト)。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-facility-operating-current-replacement-value-crv-index-metric
+M055,施設運営の現在の再取得価額 (CRV) 指数,データを生む業務,,建物 (「現在の再取得価額」フィールド),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-facility-operating-current-replacement-value-crv-index-metric
+M055,施設運営の現在の再取得価額 (CRV) 指数,データを生む業務,,施設アセスメント (オプション),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-facility-operating-current-replacement-value-crv-index-metric
+M055,施設運営の現在の再取得価額 (CRV) 指数,格納先（ファクトBO）,triMetricFact,triBuildingFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-facility-operating-current-replacement-value-crv-index-metric
+M055,施設運営の現在の再取得価額 (CRV) 指数,集計対象条件,,アクティブな物件 アクティブな建物,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-facility-operating-current-replacement-value-crv-index-metric
+M056,グリーン状態指数,計算式,,比率 (グリーン状態指数) = エネルギー機会 (欠陥) の合計コスト / 現在の再取得価額 (CRV) の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-green-condition-index-metric
+M056,グリーン状態指数,従属データ,環境要求評価,合計調査回答スコア,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-green-condition-index-metric
+M056,グリーン状態指数,従属データ,環境要求評価,スコアが 0.0 を超える調査質問の総数、該当しない回答の除外、またはその両方。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-green-condition-index-metric
+M056,グリーン状態指数,データを生む業務,,環境機会 (欠陥),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-green-condition-index-metric
+M056,グリーン状態指数,格納先（ファクトBO）,triMetricFact,triLocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-green-condition-index-metric
+M056,グリーン状態指数,集計対象条件,,なし,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-green-condition-index-metric
+M057,履行計画の節減進捗,計算式,,完了トランザクションからの合計削減 / 合計削減目標,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-implementation-plan-savings-progress-metric
+M057,履行計画の節減進捗,従属データ,,履行計画,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-implementation-plan-savings-progress-metric
+M057,履行計画の節減進捗,判定条件,,合計削減目標 = 年間節減額 + その他の年間節減額 + 生産性節減額 + 現金収入,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-implementation-plan-savings-progress-metric
+M057,履行計画の節減進捗,従属データ,,不動産プロジェクト (triREProject),計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-implementation-plan-savings-progress-metric
+M057,履行計画の節減進捗,判定条件,,完了トランザクションからの合計削減 = 合計年間節減額 + 生産性節減額 + 現金収入,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-implementation-plan-savings-progress-metric
+M057,履行計画の節減進捗,データを生む業務,,スペース利用契約 (不動産業),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-implementation-plan-savings-progress-metric
+M057,履行計画の節減進捗,データを生む業務,,スペース割り振り (施設),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-implementation-plan-savings-progress-metric
+M057,履行計画の節減進捗,格納先（ファクトBO）,triMetricFact,triREImplementationPlanFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-implementation-plan-savings-progress-metric
+M057,履行計画の節減進捗,集計対象条件,,データ・ポイント更新期間に完了,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-implementation-plan-savings-progress-metric
+M058,面積あたりの収入 (賃貸リース),計算式,,合計不動産収入 (賃貸リース) / 合計賃貸可能面積,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-income-per-area-ar-leases-metric
+M058,面積あたりの収入 (賃貸リース),従属データ,合計不動産収入,所有物件不動産収入,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-income-per-area-ar-leases-metric
+M058,面積あたりの収入 (賃貸リース),従属データ,所有物件,合計賃貸可能面積,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-income-per-area-ar-leases-metric
+M058,面積あたりの収入 (賃貸リース),データを生む業務,,スペース利用契約 (不動産業),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-income-per-area-ar-leases-metric
+M058,面積あたりの収入 (賃貸リース),データを生む業務,,スペース割り振り (施設),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-income-per-area-ar-leases-metric
+M058,面積あたりの収入 (賃貸リース),格納先（ファクトBO）,triMetricFact,triREContractFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-income-per-area-ar-leases-metric
+M058,面積あたりの収入 (賃貸リース),集計対象条件,,会計タイプ = 売掛金 (AR),静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-income-per-area-ar-leases-metric
+M059,メンテナンス・コスト/面積 ($/面積),計算式,,メンテナンス・コスト合計 / 施設面積合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-maintenance-costs-area-area-metric
+M059,メンテナンス・コスト/面積 ($/面積),判定条件,メンテナンス・コスト合計,「コスト・タイプ」 = 「メンテナンス」でフィルタリングされた財務サマリー・テーブルの合計。 これには、公共料金、保全、地面などのすべてのメンテナンス関連コストの値が含まれます。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-maintenance-costs-area-area-metric
+M059,メンテナンス・コスト/面積 ($/面積),従属データ,施設面積合計,建物の賃貸可能面積,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-maintenance-costs-area-area-metric
+M059,メンテナンス・コスト/面積 ($/面積),データを生む業務,,建物 (面積の計算),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-maintenance-costs-area-area-metric
+M059,メンテナンス・コスト/面積 ($/面積),データを生む業務,,外部の企業システムからの財務データ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-maintenance-costs-area-area-metric
+M059,メンテナンス・コスト/面積 ($/面積),格納先（ファクトBO）,triMetricFact,triBuildingFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-maintenance-costs-area-area-metric
+M059,メンテナンス・コスト/面積 ($/面積),集計対象条件,,コスト・タイプ分類 = メンテナンス,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-maintenance-costs-area-area-metric
+M060,メンテナンス・コスト / メンテナンス対象面積,計算式,,メンテナンス・コスト合計 / メンテナンス対象面積合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-maintenance-costs-area-maintained-metric
+M060,メンテナンス・コスト / メンテナンス対象面積,判定条件,メンテナンス・コスト合計,「サービス・タイプ」 = 「メンテナンス」でフィルタリングされた財務サマリー・テーブルの合計。 これには、公共料金、保全、地面などのすべてのメンテナンス関連コストの値が含まれます。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-maintenance-costs-area-maintained-metric
+M060,メンテナンス・コスト / メンテナンス対象面積,従属データ,メンテナンス対象面積合計,フロア・レコードで「メンテナンスされた床」フィールドが「TRUE」である面積の合計。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-maintenance-costs-area-maintained-metric
+M060,メンテナンス・コスト / メンテナンス対象面積,データを生む業務,,建物 (面積の計算),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-maintenance-costs-area-maintained-metric
+M060,メンテナンス・コスト / メンテナンス対象面積,データを生む業務,,外部の企業システムからの財務データ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-maintenance-costs-area-maintained-metric
+M060,メンテナンス・コスト / メンテナンス対象面積,格納先（ファクトBO）,triMetricFact,triBuildingFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-maintenance-costs-area-maintained-metric
+M060,メンテナンス・コスト / メンテナンス対象面積,集計対象条件,,コスト・タイプ分類 = メンテナンス,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-maintenance-costs-area-maintained-metric
+M061,移動スペース率 (%),計算式,,フリーアドレス作業スペースの面積合計 / 作業スペースの面積合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-mobility-space-rate-metric
+M061,移動スペース率 (%),判定条件,フリーアドレス作業スペースの面積合計,「予約可能」 = TRUE であるスペース・レコード,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-mobility-space-rate-metric
+M061,移動スペース率 (%),判定条件,作業スペースの面積合計,「作業ポイント」 = TRUE であるスペース・レコード,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-mobility-space-rate-metric
+M061,移動スペース率 (%),格納先（ファクトBO）,triMetricFact,triSpaceAllocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-mobility-space-rate-metric
+M061,移動スペース率 (%),集計対象条件,,アクティブな建物 アクティブなフロア アクティブなスペース 共有/予約済みのワークステーション (フリーアドレス作業スペース),静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-mobility-space-rate-metric
+M062,移動作業者率 (%),計算式,,フリーアドレス作業者数の合計 / 作業者数の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-mobility-worker-rate-metric
+M062,移動作業者率 (%),判定条件,,フリーアドレス作業者は、従業員レコードの「割り当てタイプ」フィールドで判別されます。 割り当てタイプ・オプション = 割り当て済み、携帯電話、非オフィス・ワーカー (Non-Office Worker)、およびリモート。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-mobility-worker-rate-metric
+M062,移動作業者率 (%),格納先（ファクトBO）,triMetricFact,triWorkerFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-mobility-worker-rate-metric
+M062,移動作業者率 (%),集計対象条件,,アクティブな建物 アクティブなフロア アクティブなスペース オフィス・ワーカー,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-mobility-worker-rate-metric
+M063,移動コスト ($/面積),計算式,,移動コスト合計 / 面積合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-move-cost-area-metric
+M063,移動コスト ($/面積),従属データ,,財務サマリー・オブジェクトは運用コストのサマリー・データを提供します,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-move-cost-area-metric
+M063,移動コスト ($/面積),従属データ,面積,建物の賃貸可能面積 (平方フィートまたは平方メートル),計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-move-cost-area-metric
+M063,移動コスト ($/面積),補足,,ファクト・テーブルでは、総面積と利用可能面積の値も取り込みます。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-move-cost-area-metric
+M063,移動コスト ($/面積),格納先（ファクトBO）,triMetricFact,triBuildingFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-move-cost-area-metric
+M063,移動コスト ($/面積),集計対象条件,,アクティブな建物,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-move-cost-area-metric
+M064,移動コスト ($/移動された人物),計算式,,移動コスト合計 / 移動された人物の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-move-cost-person-moved-metric
+M064,移動コスト ($/移動された人物),従属データ,コスト,移動プロジェクトの実コスト,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-move-cost-person-moved-metric
+M064,移動コスト ($/移動された人物),従属データ,人物 (作業者),移動された人物の移動プロジェクト品目数,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-move-cost-person-moved-metric
+M064,移動コスト ($/移動された人物),従属データ,,データは施設プロジェクト・オブジェクト (MAC タイプのプロジェクトに使用される) から取得されます。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-move-cost-person-moved-metric
+M064,移動コスト ($/移動された人物),格納先（ファクトBO）,triMetricFact,triMoveProjectCostFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-move-cost-person-moved-metric
+M064,移動コスト ($/移動された人物),集計対象条件,,アクティブな建物,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-move-cost-person-moved-metric
+M065,My 平均トランザクション・サイクル・タイム,計算式,,(実際の終了 - 実際の開始) / 完了プロジェクト数の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-average-transaction-cycle-time-metric
+M065,My 平均トランザクション・サイクル・タイム,従属データ,不動産プロジェクト,不動産プロジェクトの実開始日,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-average-transaction-cycle-time-metric
+M065,My 平均トランザクション・サイクル・タイム,従属データ,不動産プロジェクト,不動産プロジェクトの実終了日,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-average-transaction-cycle-time-metric
+M065,My 平均トランザクション・サイクル・タイム,データを生む業務,,スペース利用契約 (不動産業),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-average-transaction-cycle-time-metric
+M065,My 平均トランザクション・サイクル・タイム,データを生む業務,,スペース割り振り (施設),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-average-transaction-cycle-time-metric
+M065,My 平均トランザクション・サイクル・タイム,格納先（ファクトBO）,triMetricFact,triREProjectFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-average-transaction-cycle-time-metric
+M065,My 平均トランザクション・サイクル・タイム,集計対象条件,,データ・ポイントの更新期間に完了した不動産プロジェクト、アクティブなユーザー (USERID) = プロジェクト・マネージャー,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-average-transaction-cycle-time-metric
+M066,My 目標どおりのサービス・コスト,計算式,,実際のタスク・コスト / 計画済みタスク・コスト,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-target-service-costs-metric
+M066,My 目標どおりのサービス・コスト,従属データ,,タスク – 担当組織セクションを持つすべてのタスク・タイプを含む,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-target-service-costs-metric
+M066,My 目標どおりのサービス・コスト,従属データ,,計画上のコスト、実コスト (完了またはクローズしたタスクについて),計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-target-service-costs-metric
+M066,My 目標どおりのサービス・コスト,データを生む業務,,タスク管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-target-service-costs-metric
+M066,My 目標どおりのサービス・コスト,データを生む業務,,サービス管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-target-service-costs-metric
+M066,My 目標どおりのサービス・コスト,データを生む業務,,サービス・マトリックス項目を持つ契約管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-target-service-costs-metric
+M066,My 目標どおりのサービス・コスト,格納先（ファクトBO）,triMetricFact,triTaskDetailFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-target-service-costs-metric
+M066,My 目標どおりのサービス・コスト,集計対象条件,,なし,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-target-service-costs-metric
+M067,My 時間内のサービス対応度 (ターンアラウンド時間),計算式,,(「実際の完了日時」<=「ベースラインの予定日時」となる完了済みタスクの数) / 完了済みタスクの総数,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-my-time-service-responsiveness-turn-around-time-metric
+M067,My 時間内のサービス対応度 (ターンアラウンド時間),補足,,タスク – ベースライン完了日、ベースライン予定日、完了/クローズ状況,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-my-time-service-responsiveness-turn-around-time-metric
+M067,My 時間内のサービス対応度 (ターンアラウンド時間),データを生む業務,,タスク管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-my-time-service-responsiveness-turn-around-time-metric
+M067,My 時間内のサービス対応度 (ターンアラウンド時間),データを生む業務,,サービス管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-my-time-service-responsiveness-turn-around-time-metric
+M067,My 時間内のサービス対応度 (ターンアラウンド時間),データを生む業務,,サービス・マトリックス項目を持つ契約管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-my-time-service-responsiveness-turn-around-time-metric
+M067,My 時間内のサービス対応度 (ターンアラウンド時間),格納先（ファクトBO）,triMetricFact,triTaskDetailFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-my-time-service-responsiveness-turn-around-time-metric
+M067,My 時間内のサービス対応度 (ターンアラウンド時間),集計対象条件,,コスト・タイプ分類 = メンテナンス,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-my-time-service-responsiveness-turn-around-time-metric
+M068,My サービス満足度調査,計算式,,調査回答スコアの合計 / 調査の最大スコアの合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-overall-customer-satisfaction-operations-metric
+M068,My サービス満足度調査,データを生む業務,,タスク管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-overall-customer-satisfaction-operations-metric
+M068,My サービス満足度調査,データを生む業務,,サービス管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-overall-customer-satisfaction-operations-metric
+M068,My サービス満足度調査,データを生む業務,,要求管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-overall-customer-satisfaction-operations-metric
+M068,My サービス満足度調査,格納先（ファクトBO）,triMetricFact,triSurveyFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-overall-customer-satisfaction-operations-metric
+M068,My サービス満足度調査,集計対象条件,,なし,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-overall-customer-satisfaction-operations-metric
+M069,My プロジェクト予算,計算式,,現在の予算と最終予測予算を表示してプロジェクトをリストします,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-project-budget-metric
+M069,My プロジェクト予算,データを生む業務,,資本プロジェクト,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-project-budget-metric
+M069,My プロジェクト予算,データを生む業務,,予算,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-project-budget-metric
+M069,My プロジェクト予算,データを生む業務,,変更要求管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-project-budget-metric
+M069,My プロジェクト予算,格納先（ファクトBO）,triMetricFact,triCapitalProjectFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-project-budget-metric
+M069,My プロジェクト予算,集計対象条件,,状況: アクティブ・プロジェクトと修正中のプロジェクトのみ,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-project-budget-metric
+M070,My サービス時間使用率,計算式,,タスク関連の時間エントリーの合計時間 / 合計標準時間 (作業スケジュールに基づく),寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-service-time-utilization-metric
+M070,My サービス時間使用率,判定条件,,タスク関連の時間エントリーの合計時間 = 該当する収集期間について関連付けられたタスクを持つ時間エントリーに記録された合計時間,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-service-time-utilization-metric
+M070,My サービス時間使用率,判定条件,,時間エントリーの合計時間 = 該当する収集期間についてタスク関連の時間エントリー (分子) 内に収集された個人の作業スケジュールに基づく合計「標準」時間 (つまり 1 日 8 時間、週 40 時間),計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-service-time-utilization-metric
+M070,My サービス時間使用率,従属データ,,期間は時間ログの明細日付に基づきます (タイム・カード期間ではありません),計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-service-time-utilization-metric
+M070,My サービス時間使用率,従属データ,,組織、ロケーション、および地域は、タイム・カード・エントリーの従業員の関連付けに基づきます。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-service-time-utilization-metric
+M070,My サービス時間使用率,データを生む業務,,タスク管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-service-time-utilization-metric
+M070,My サービス時間使用率,データを生む業務,,サービス管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-service-time-utilization-metric
+M070,My サービス時間使用率,データを生む業務,,時間エントリー,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-service-time-utilization-metric
+M070,My サービス時間使用率,格納先（ファクトBO）,triMetricFact,triResourceFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-service-time-utilization-metric
+M070,My サービス時間使用率,集計対象条件,,なし,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-my-service-time-utilization-metric
+M071,新築コスト / 面積 (資本プロジェクトのみ),計算式,,発生した実コスト (新築プロジェクトのみ) / プロジェクト建設総面積 (またはプロジェクトの利用可能面積),寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-new-construction-cost-area-metric
+M071,新築コスト / 面積 (資本プロジェクトのみ),補足,,プロジェクト総建設面積およびプロジェクトの利用可能面積,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-new-construction-cost-area-metric
+M071,新築コスト / 面積 (資本プロジェクトのみ),格納先（ファクトBO）,triMetricFact,triCapitalProjectFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-new-construction-cost-area-metric
+M071,新築コスト / 面積 (資本プロジェクトのみ),集計対象条件,,状況: 完了プロジェクト プロジェクトの分類: 新築,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-new-construction-cost-area-metric
+M072,占有率 (%),計算式,,使用スペース / 使用可能スペース,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-occupancy-rate-metric
+M072,占有率 (%),従属データ,使用スペース,組織に割り当てられているスペース,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-occupancy-rate-metric
+M072,占有率 (%),従属データ,使用可能スペース,建物内部の合計スペース,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-occupancy-rate-metric
+M072,占有率 (%),格納先（ファクトBO）,triMetricFact,triSpaceFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-occupancy-rate-metric
+M072,占有率 (%),集計対象条件,,アクティブな建物 アクティブなフロア アクティブなスペース,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-occupancy-rate-metric
+M073,目標どおりのサービス・コスト,計算式,,実際のタスク・コスト / 計画済みタスク・コスト,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-target-service-costs-metric
+M073,目標どおりのサービス・コスト,従属データ,,タスク – 担当組織セクションを持つすべてのタスク・タイプを含む,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-target-service-costs-metric
+M073,目標どおりのサービス・コスト,従属データ,,計画上のコスト、実コスト (完了またはクローズしたタスクについて),計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-target-service-costs-metric
+M073,目標どおりのサービス・コスト,データを生む業務,,タスク管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-target-service-costs-metric
+M073,目標どおりのサービス・コスト,データを生む業務,,サービス管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-target-service-costs-metric
+M073,目標どおりのサービス・コスト,データを生む業務,,サービス・マトリックス項目を持つ契約管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-target-service-costs-metric
+M073,目標どおりのサービス・コスト,格納先（ファクトBO）,triMetricFact,triTaskResourceFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-target-service-costs-metric
+M073,目標どおりのサービス・コスト,集計対象条件,,なし,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-target-service-costs-metric
+M074,時間内のサービス対応度 (ターンアラウンド時間),計算式,,(「実際の完了日時」<=「ベースラインの予定日時」となる完了済みタスクの数) / 完了済みタスクの総数,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-service-responsiveness-turn-around-time-metric
+M074,時間内のサービス対応度 (ターンアラウンド時間),補足,,タスク – ベースライン完了日、ベースライン予定日、完了/クローズ状況,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-service-responsiveness-turn-around-time-metric
+M074,時間内のサービス対応度 (ターンアラウンド時間),データを生む業務,,タスク管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-service-responsiveness-turn-around-time-metric
+M074,時間内のサービス対応度 (ターンアラウンド時間),データを生む業務,,サービス管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-service-responsiveness-turn-around-time-metric
+M074,時間内のサービス対応度 (ターンアラウンド時間),データを生む業務,,サービス・マトリックス項目を持つ契約管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-service-responsiveness-turn-around-time-metric
+M074,時間内のサービス対応度 (ターンアラウンド時間),格納先（ファクトBO）,triMetricFact,triTaskResourceFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-service-responsiveness-turn-around-time-metric
+M074,時間内のサービス対応度 (ターンアラウンド時間),集計対象条件,,コスト・タイプ分類 = メンテナンス,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-service-responsiveness-turn-around-time-metric
+M075,運用コスト (実績 vs 予算),計算式,,運用コスト (実績 vs 予算),寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-operating-cost-actual-vs-budget-metric
+M075,運用コスト (実績 vs 予算),補足,,財務サマリー・オブジェクトは運用コスト合計のサマリー・データを提供します,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-operating-cost-actual-vs-budget-metric
+M075,運用コスト (実績 vs 予算),格納先（ファクトBO）,triMetricFact,triBuildingCostFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-operating-cost-actual-vs-budget-metric
+M075,運用コスト (実績 vs 予算),集計対象条件,,コスト・タイプ = 運用,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-operating-cost-actual-vs-budget-metric
+M076,運用コスト (予算、実際、予測の比較),計算式,,運用コスト (予算、実際、予測の比較),寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-operating-cost-budget-vs-actual-vs-forecast-metric
+M076,運用コスト (予算、実際、予測の比較),補足,,財務サマリー・オブジェクトは運用コスト合計のサマリー・データを提供します。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-operating-cost-budget-vs-actual-vs-forecast-metric
+M076,運用コスト (予算、実際、予測の比較),格納先（ファクトBO）,triMetricFact,triBuildingCostFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-operating-cost-budget-vs-actual-vs-forecast-metric
+M076,運用コスト (予算、実際、予測の比較),集計対象条件,,コスト・タイプ = 運用,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-operating-cost-budget-vs-actual-vs-forecast-metric
+M077,当初の予算対予測,計算式,,当初プロジェクト予算 / 最終予測予算,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-original-budget-forecast-metric
+M077,当初の予算対予測,データを生む業務,,資本プロジェクト,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-original-budget-forecast-metric
+M077,当初の予算対予測,データを生む業務,,予算,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-original-budget-forecast-metric
+M077,当初の予算対予測,データを生む業務,,変更要求管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-original-budget-forecast-metric
+M077,当初の予算対予測,格納先（ファクトBO）,triMetricFact,triCapitalProjectFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-original-budget-forecast-metric
+M077,当初の予算対予測,集計対象条件,,状況: アクティブ・プロジェクトと修正中のプロジェクトのみ,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-original-budget-forecast-metric
+M078,外部委託率,計算式,,タスクの合計契約コスト / 合計タスク・コスト,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-outsource-ratio-metric
+M078,外部委託率,判定条件,,タスクの合計契約コスト = タスクに関連付けられている担当組織が外部組織であるか、担当組織が社内の部門または機関あるいは作業グループであっても、リソースとして外部組織が指定されている場合の合計タスク・コスト。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-outsource-ratio-metric
+M078,外部委託率,判定条件,,合計タスク・コスト = すべてのタスクの合計コスト,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-outsource-ratio-metric
+M078,外部委託率,データを生む業務,,タスク管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-outsource-ratio-metric
+M078,外部委託率,データを生む業務,,サービス管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-outsource-ratio-metric
+M078,外部委託率,格納先（ファクトBO）,triMetricFact,triTaskDetailFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-outsource-ratio-metric
+M078,外部委託率,集計対象条件,,アクティブ状況のディメンションのみを含む,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-outsource-ratio-metric
+M079,ワークプレース総合顧客満足度,計算式,,合計調査回答スコア / 合計調査質問予想スコア,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overall-customer-satisfaction-all-workplace-organizations-metric
+M079,ワークプレース総合顧客満足度,データを生む業務,,不動産業: RE ポートフォリオ・マネージャー評価および RE 優先プロバイダー評価のための不動産トランザクション管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overall-customer-satisfaction-all-workplace-organizations-metric
+M079,ワークプレース総合顧客満足度,データを生む業務,,施設管理: 施設サービスおよび移動サービス・プロバイダー評価のためのタスク管理、サービス管理、要求管理、移動管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overall-customer-satisfaction-all-workplace-organizations-metric
+M079,ワークプレース総合顧客満足度,データを生む業務,,運用管理: 運用サービス・プロバイダー評価のためのタスク管理、サービス管理、および要求管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overall-customer-satisfaction-all-workplace-organizations-metric
+M079,ワークプレース総合顧客満足度,格納先（ファクトBO）,triMetricFact,triSurveyFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overall-customer-satisfaction-all-workplace-organizations-metric
+M079,ワークプレース総合顧客満足度,集計対象条件,,なし,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overall-customer-satisfaction-all-workplace-organizations-metric
+M080,総合顧客満足度 – ポートフォリオ・マネージャー,計算式,,合計調査回答スコア / 合計調査質問予想スコア,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overall-customer-satisfaction-portfolio-managers-metric
+M080,総合顧客満足度 – ポートフォリオ・マネージャー,従属データ,,ポートフォリオ・マネージャー評価:,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overall-customer-satisfaction-portfolio-managers-metric
+M080,総合顧客満足度 – ポートフォリオ・マネージャー,従属データ,,合計調査回答スコア,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overall-customer-satisfaction-portfolio-managers-metric
+M080,総合顧客満足度 – ポートフォリオ・マネージャー,従属データ,,合計調査質問予想スコア,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overall-customer-satisfaction-portfolio-managers-metric
+M080,総合顧客満足度 – ポートフォリオ・マネージャー,データを生む業務,,スペース利用契約 (不動産業),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overall-customer-satisfaction-portfolio-managers-metric
+M080,総合顧客満足度 – ポートフォリオ・マネージャー,データを生む業務,,スペース割り振り (施設),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overall-customer-satisfaction-portfolio-managers-metric
+M080,総合顧客満足度 – ポートフォリオ・マネージャー,格納先（ファクトBO）,triMetricFact,triSurveyFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overall-customer-satisfaction-portfolio-managers-metric
+M080,総合顧客満足度 – ポートフォリオ・マネージャー,集計対象条件,,調査タイプ = 不動産業 調査用紙名 = ポートフォリオ・マネージャー評価調査,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overall-customer-satisfaction-portfolio-managers-metric
+M081,総合顧客満足度 – 優先プロバイダー,計算式,,合計調査回答スコア / 合計調査質問予想スコア,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overall-customer-satisfaction-preferred-providers-metric
+M081,総合顧客満足度 – 優先プロバイダー,従属データ,優先プロバイダー評価,合計調査回答スコア,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overall-customer-satisfaction-preferred-providers-metric
+M081,総合顧客満足度 – 優先プロバイダー,従属データ,優先プロバイダー評価,合計調査質問予想スコア,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overall-customer-satisfaction-preferred-providers-metric
+M081,総合顧客満足度 – 優先プロバイダー,データを生む業務,,スペース利用契約 (不動産業),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overall-customer-satisfaction-preferred-providers-metric
+M081,総合顧客満足度 – 優先プロバイダー,データを生む業務,,スペース割り振り (施設),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overall-customer-satisfaction-preferred-providers-metric
+M081,総合顧客満足度 – 優先プロバイダー,格納先（ファクトBO）,triMetricFact,triSurveyFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overall-customer-satisfaction-preferred-providers-metric
+M081,総合顧客満足度 – 優先プロバイダー,集計対象条件,,調査タイプ = 不動産業 調査用紙名 = ポートフォリオ・マネージャー評価調査,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overall-customer-satisfaction-preferred-providers-metric
+M082,総合顧客満足度 – 優先プロバイダー – My プロジェクト,計算式,,合計調査回答スコア / 合計調査質問予想スコア,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-overall-customer-satisfaction-preferred-providers-my-projects-metric
+M082,総合顧客満足度 – 優先プロバイダー – My プロジェクト,従属データ,優先プロバイダー評価,合計調査回答スコア,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-overall-customer-satisfaction-preferred-providers-my-projects-metric
+M082,総合顧客満足度 – 優先プロバイダー – My プロジェクト,従属データ,優先プロバイダー評価,合計調査質問予想スコア,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-overall-customer-satisfaction-preferred-providers-my-projects-metric
+M082,総合顧客満足度 – 優先プロバイダー – My プロジェクト,データを生む業務,,スペース利用契約 (不動産業),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-overall-customer-satisfaction-preferred-providers-my-projects-metric
+M082,総合顧客満足度 – 優先プロバイダー – My プロジェクト,データを生む業務,,スペース割り振り (施設),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-overall-customer-satisfaction-preferred-providers-my-projects-metric
+M082,総合顧客満足度 – 優先プロバイダー – My プロジェクト,格納先（ファクトBO）,triMetricFact,triSurveyFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-overall-customer-satisfaction-preferred-providers-my-projects-metric
+M082,総合顧客満足度 – 優先プロバイダー – My プロジェクト,集計対象条件,,データ・ポイントの更新期間に完了した不動産プロジェクト、アクティブなユーザー (USERID) = プロジェクト・マネージャー,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-overall-customer-satisfaction-preferred-providers-my-projects-metric
+M083,時間外使用率,計算式,,時間外勤務時間 / 合計時間,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overtime-utilization-rate-metric
+M083,時間外使用率,従属データ,,タイム・カードおよび時間エントリーから:,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overtime-utilization-rate-metric
+M083,時間外使用率,判定条件,時間外勤務時間,「時間タイプ」=「時間外勤務時間」の時間エントリー,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overtime-utilization-rate-metric
+M083,時間外使用率,判定条件,,時間エントリーの合計時間 = 該当する収集期間についてタスク関連の時間エントリー (分子) 内に収集された個人の作業スケジュールに基づく合計「標準」時間 (つまり 1 日 8 時間、週 40 時間) (triTask – 担当組織セクションを持つすべてのタスク・タイプを含む),計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overtime-utilization-rate-metric
+M083,時間外使用率,従属データ,,期間は時間ログの明細日付に基づきます (タイム・カード期間ではありません),計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overtime-utilization-rate-metric
+M083,時間外使用率,従属データ,,組織、ロケーション、および地域は、タイム・カード・エントリーの従業員の関連付けに基づきます。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overtime-utilization-rate-metric
+M083,時間外使用率,データを生む業務,,タスク管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overtime-utilization-rate-metric
+M083,時間外使用率,データを生む業務,,サービス管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overtime-utilization-rate-metric
+M083,時間外使用率,データを生む業務,,時間エントリー,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overtime-utilization-rate-metric
+M083,時間外使用率,格納先（ファクトBO）,triMetricFact,triResourceFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overtime-utilization-rate-metric
+M083,時間外使用率,集計対象条件,,なし,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-overtime-utilization-rate-metric
+M084,予算超過プロジェクト率,計算式,,予算超過のプロジェクト数 / プロジェクト数の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-percent-projects-over-budget-metric
+M084,予算超過プロジェクト率,判定条件,,予算超過プロジェクト =「最終予測」>「現在の予算」,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-percent-projects-over-budget-metric
+M084,予算超過プロジェクト率,データを生む業務,,資本プロジェクト、予算、変更要求管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-percent-projects-over-budget-metric
+M084,予算超過プロジェクト率,格納先（ファクトBO）,triMetricFact,triCapitalProjectFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-percent-projects-over-budget-metric
+M084,予算超過プロジェクト率,集計対象条件,,状況: アクティブ・プロジェクトと修正中のプロジェクトのみ。,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-percent-projects-over-budget-metric
+M085,スケジュール超過プロジェクト (%),計算式,,スケジュール超過プロジェクトの数 (計画上の終了日 < 予想終了日) / プロジェクト数の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-percent-projects-over-schedule-metric
+M085,スケジュール超過プロジェクト (%),判定条件,,スケジュールを超えたまたは下回った日数 (差異) = 計画上の終了日 – 予想終了日。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-percent-projects-over-schedule-metric
+M085,スケジュール超過プロジェクト (%),格納先（ファクトBO）,triMetricFact,triCapitalProjectFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-percent-projects-over-schedule-metric
+M085,スケジュール超過プロジェクト (%),集計対象条件,,状況: アクティブ・プロジェクトのみ。完了プロジェクトを含まない。,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-percent-projects-over-schedule-metric
+M086,情報要求の期限切れ率,計算式,,期限切れ情報要求の合計 / 情報要求の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-percent-rfi-overdue-metric
+M086,情報要求の期限切れ率,判定条件,,期限切れの情報要求 = 情報要求の対応期限日 < システム日付,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-percent-rfi-overdue-metric
+M086,情報要求の期限切れ率,格納先（ファクトBO）,triMetricFact,triRFIFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-percent-rfi-overdue-metric
+M086,情報要求の期限切れ率,集計対象条件,,アクティブ・プロジェクト アクティブな情報要求,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-percent-rfi-overdue-metric
+M087,予防保全タスク完了率,計算式,,完了した予防保全タスクの総数 / スケジュール済みの予防保全タスクの総数,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-preventive-maintenance-task-completion-ratio-metric
+M087,予防保全タスク完了率,従属データ,完了した予防保全タスクの総数,「タスク・タイプ」が「予防」、「状況」が「完了」または「クローズ済み」、「計画上の終了」が収集期間内にある、完了した予防保全タスクの総数,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-preventive-maintenance-task-completion-ratio-metric
+M087,予防保全タスク完了率,従属データ,スケジュール済みの予防保全タスクの総数,「タスク・タイプ」が「予防」、「状況」が「完了」、「クローズ済み」、または「計画」、「計画上の終了」が収集期間内にある、スケジュール済みの予防保全タスクの総数,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-preventive-maintenance-task-completion-ratio-metric
+M087,予防保全タスク完了率,データを生む業務,,タスク管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-preventive-maintenance-task-completion-ratio-metric
+M087,予防保全タスク完了率,データを生む業務,,サービス管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-preventive-maintenance-task-completion-ratio-metric
+M087,予防保全タスク完了率,データを生む業務,,予防保全ジョブ計画,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-preventive-maintenance-task-completion-ratio-metric
+M087,予防保全タスク完了率,データを生む業務,,PM スケジュール,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-preventive-maintenance-task-completion-ratio-metric
+M087,予防保全タスク完了率,格納先（ファクトBO）,triMetricFact,triTaskDetailFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-preventive-maintenance-task-completion-ratio-metric
+M087,予防保全タスク完了率,集計対象条件,,タスク・タイプ = 予防 タスク (「担当組織」セクションがあるタスク・タイプのみ),静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-preventive-maintenance-task-completion-ratio-metric
+M088,予防保全コストと修理メンテナンス・コストとの比率,計算式,,完了済み予防タスクの合計コスト / 完了済み修理タスクの合計コスト,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-preventive-maintenance-repair-maintenance-cost-ratio-metric
+M088,予防保全コストと修理メンテナンス・コストとの比率,従属データ,,「タスク・タイプ」が「予防」である完了済み予防タスクの合計コスト,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-preventive-maintenance-repair-maintenance-cost-ratio-metric
+M088,予防保全コストと修理メンテナンス・コストとの比率,従属データ,,「タスク・タイプ」が「改良」である完了済みタスクの合計コスト,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-preventive-maintenance-repair-maintenance-cost-ratio-metric
+M088,予防保全コストと修理メンテナンス・コストとの比率,データを生む業務,,タスク管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-preventive-maintenance-repair-maintenance-cost-ratio-metric
+M088,予防保全コストと修理メンテナンス・コストとの比率,データを生む業務,,サービス管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-preventive-maintenance-repair-maintenance-cost-ratio-metric
+M088,予防保全コストと修理メンテナンス・コストとの比率,データを生む業務,,予防保全ジョブ計画,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-preventive-maintenance-repair-maintenance-cost-ratio-metric
+M088,予防保全コストと修理メンテナンス・コストとの比率,データを生む業務,,PM スケジュール,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-preventive-maintenance-repair-maintenance-cost-ratio-metric
+M088,予防保全コストと修理メンテナンス・コストとの比率,格納先（ファクトBO）,triMetricFact,triTaskDetailFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-preventive-maintenance-repair-maintenance-cost-ratio-metric
+M088,予防保全コストと修理メンテナンス・コストとの比率,集計対象条件,,「タスク・タイプ」=「改良」または「予防」 タスク (「担当組織」セクションがあるタスク・タイプのみ) 状況 = 「完了」または「クローズ済み」のタスク,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-preventive-maintenance-repair-maintenance-cost-ratio-metric
+M089,プロジェクト・オンタイム完了率,計算式,,オンタイムで完了したプロジェクトの総数 / プロジェクトの総数,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-project-time-completion-rate-metric
+M089,プロジェクト・オンタイム完了率,判定条件,,オンタイムで完了したプロジェクト = 実終了日 < 計画上の終了日,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-project-time-completion-rate-metric
+M089,プロジェクト・オンタイム完了率,格納先（ファクトBO）,triMetricFact,triCapitalProjectFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-project-time-completion-rate-metric
+M089,プロジェクト・オンタイム完了率,集計対象条件,,完了プロジェクト,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-project-time-completion-rate-metric
+M090,プロジェクト・スケジュール差異,計算式,,計画上の終了日 – 予想終了日,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-project-schedule-variance-metric
+M090,プロジェクト・スケジュール差異,判定条件,,スケジュールを超えたまたは下回った日数 (差異) = 計画上の終了日 – 予想終了日。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-project-schedule-variance-metric
+M090,プロジェクト・スケジュール差異,格納先（ファクトBO）,triMetricFact,triCapitalProjectFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-project-schedule-variance-metric
+M090,プロジェクト・スケジュール差異,集計対象条件,,状況: アクティブ・プロジェクトのみ。完了プロジェクトを含まない。,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-project-schedule-variance-metric
+M091,不動産契約使用率 – スペース利用契約,計算式,,SUA 賃貸可能面積合計 / 合計賃貸可能面積,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-real-estate-contract-utilization-space-use-agreement-metric
+M091,不動産契約使用率 – スペース利用契約,従属データ,スペース利用契約,SUA 賃貸可能面積,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-real-estate-contract-utilization-space-use-agreement-metric
+M091,不動産契約使用率 – スペース利用契約,従属データ,スペース利用契約,不動産契約:,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-real-estate-contract-utilization-space-use-agreement-metric
+M091,不動産契約使用率 – スペース利用契約,従属データ,スペース利用契約,合計賃貸可能面積,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-real-estate-contract-utilization-space-use-agreement-metric
+M091,不動産契約使用率 – スペース利用契約,データを生む業務,,スペース利用契約 (不動産業),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-real-estate-contract-utilization-space-use-agreement-metric
+M091,不動産契約使用率 – スペース利用契約,データを生む業務,,スペース割り振り (施設),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-real-estate-contract-utilization-space-use-agreement-metric
+M091,不動産契約使用率 – スペース利用契約,格納先（ファクトBO）,triMetricFact,triREContractFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-real-estate-contract-utilization-space-use-agreement-metric
+M091,不動産契約使用率 – スペース利用契約,集計対象条件,,アクティブな不動産契約 (開始日 < = 今日および満了日> = 今日以降、状況 NOT IN (「リタイア済み」、「解約済み」)),静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-real-estate-contract-utilization-space-use-agreement-metric
+M092,再生可能エネルギー比率 (%),計算式,,再生可能エネルギー源からのエネルギー合計使用量 / すべてのエネルギー源のエネルギー合計使用量,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-renewable-energy-ratio-energy-type-metric
+M092,再生可能エネルギー比率 (%),データを生む業務,,エネルギー・ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-renewable-energy-ratio-energy-type-metric
+M092,再生可能エネルギー比率 (%),格納先（ファクトBO）,triMetricFact,triEnergyLogFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-renewable-energy-ratio-energy-type-metric
+M092,再生可能エネルギー比率 (%),集計対象条件,,アクティブな土地 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブなエネルギー・ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-renewable-energy-ratio-energy-type-metric
+M093,再生可能エネルギー比率 (%),計算式,,再生可能エネルギー源からのエネルギー合計使用量 / すべてのエネルギー源のエネルギー合計使用量,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-renewable-energy-ratio-metric
+M093,再生可能エネルギー比率 (%),データを生む業務,,エネルギー・ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-renewable-energy-ratio-metric
+M093,再生可能エネルギー比率 (%),格納先（ファクトBO）,triMetricFact,triLocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-renewable-energy-ratio-metric
+M093,再生可能エネルギー比率 (%),集計対象条件,,アクティブな土地 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブなエネルギー・ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-renewable-energy-ratio-metric
+M094,改築コスト / 面積 (資本プロジェクトのみ),計算式,,発生した実際のコスト (改築プロジェクトのみ)/プロジェクト総建設面積 (またはプロジェクトの利用可能面積),寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-renovation-cost-area-metric
+M094,改築コスト / 面積 (資本プロジェクトのみ),補足,,プロジェクト総建設面積およびプロジェクトの利用可能面積。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-renovation-cost-area-metric
+M094,改築コスト / 面積 (資本プロジェクトのみ),格納先（ファクトBO）,triMetricFact,triCapitalProjectFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-renovation-cost-area-metric
+M094,改築コスト / 面積 (資本プロジェクトのみ),集計対象条件,,状況: 完了プロジェクト プロジェクトの分類: 改築,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-renovation-cost-area-metric
+M095,収益/炭素排出量 (USD/トン CO2),計算式,,事業収益合計 / 合計 CO2e 出資比率報告、合計 CO2 出資比率報告、合計輸送出資比率報告、合計廃棄物出資比率報告,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-revenue-carbon-emissions-usd-tons-co2-metric
+M095,収益/炭素排出量 (USD/トン CO2),データを生む業務,,輸送ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-revenue-carbon-emissions-usd-tons-co2-metric
+M095,収益/炭素排出量 (USD/トン CO2),データを生む業務,,廃棄物ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-revenue-carbon-emissions-usd-tons-co2-metric
+M095,収益/炭素排出量 (USD/トン CO2),データを生む業務,,財務状況の概要,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-revenue-carbon-emissions-usd-tons-co2-metric
+M095,収益/炭素排出量 (USD/トン CO2),データを生む業務,,炭素フットプリント・ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-revenue-carbon-emissions-usd-tons-co2-metric
+M095,収益/炭素排出量 (USD/トン CO2),格納先（ファクトBO）,triMetricFact,triLocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-revenue-carbon-emissions-usd-tons-co2-metric
+M095,収益/炭素排出量 (USD/トン CO2),集計対象条件,,アクティブな土地 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブな炭素フットプリント・ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-revenue-carbon-emissions-usd-tons-co2-metric
+M096,目標までの収益週,計算式,,計算上の収益週数の合計 / 計画上の収益週数の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-revenue-weeks-target-metric
+M096,目標までの収益週,判定条件,不動産トランザクション計画,計画上の収益週数 = (会計年の終了日 – 不動産プロジェクトの計画上の終了日) の合計,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-revenue-weeks-target-metric
+M096,目標までの収益週,判定条件,不動産トランザクション計画,計算上の収益週数 = (会計年の終了日 – 不動産プロジェクトの計算上の終了日) の合計,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-revenue-weeks-target-metric
+M096,目標までの収益週,データを生む業務,,スペース利用契約 (不動産業),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-revenue-weeks-target-metric
+M096,目標までの収益週,データを生む業務,,スペース割り振り (施設),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-revenue-weeks-target-metric
+M096,目標までの収益週,格納先（ファクトBO）,triMetricFact,triRETransactionPlanFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-revenue-weeks-target-metric
+M096,目標までの収益週,集計対象条件,,アクティブ・トランザクション計画,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-revenue-weeks-target-metric
+M097,情報要求応答時間,計算式,,各情報要求に応答する平均時間 / 情報要求の総数,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-rfi-response-time-metric
+M097,情報要求応答時間,判定条件,,情報要求応答時間 = 情報要求クローズ日 – 情報要求作成日,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-rfi-response-time-metric
+M097,情報要求応答時間,格納先（ファクトBO）,triMetricFact,triRFIFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-rfi-response-time-metric
+M097,情報要求応答時間,集計対象条件,,なし,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-rfi-response-time-metric
+M098,席占有率 (%) – 不動産契約,計算式,,合計人数 / 合計席数,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-seat-occupancy-re-contracts-metric
+M098,席占有率 (%) – 不動産契約,従属データ,不動産契約,合計人数,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-seat-occupancy-re-contracts-metric
+M098,席占有率 (%) – 不動産契約,従属データ,不動産契約,合計席数,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-seat-occupancy-re-contracts-metric
+M098,席占有率 (%) – 不動産契約,データを生む業務,,スペース利用契約 (不動産業),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-seat-occupancy-re-contracts-metric
+M098,席占有率 (%) – 不動産契約,データを生む業務,,スペース割り振り (施設),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-seat-occupancy-re-contracts-metric
+M098,席占有率 (%) – 不動産契約,格納先（ファクトBO）,triMetricFact,triREContractFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-seat-occupancy-re-contracts-metric
+M098,席占有率 (%) – 不動産契約,集計対象条件,,アクティブな不動産契約 (開始日 < = 今日および満了日> = 今日以降、状況 NOT IN (「リタイア済み」、「解約済み」)),静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-seat-occupancy-re-contracts-metric
+M099,1 人あたりの席数 – 不動産契約,計算式,,合計席数 / 合計人数,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-seats-per-person-re-contracts-metric
+M099,1 人あたりの席数 – 不動産契約,従属データ,不動産契約,合計人数,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-seats-per-person-re-contracts-metric
+M099,1 人あたりの席数 – 不動産契約,従属データ,不動産契約,合計席数,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-seats-per-person-re-contracts-metric
+M099,1 人あたりの席数 – 不動産契約,データを生む業務,,スペース利用契約 (不動産業),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-seats-per-person-re-contracts-metric
+M099,1 人あたりの席数 – 不動産契約,データを生む業務,,スペース割り振り (施設),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-seats-per-person-re-contracts-metric
+M099,1 人あたりの席数 – 不動産契約,格納先（ファクトBO）,triMetricFact,triREContractFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-seats-per-person-re-contracts-metric
+M099,1 人あたりの席数 – 不動産契約,集計対象条件,,アクティブな不動産契約 (開始日 < = 今日および満了日> = 今日以降、状況 NOT IN (「リタイア済み」、「解約済み」)),静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-seats-per-person-re-contracts-metric
+M100,セキュリティー・コスト / メンテナンス対象面積,計算式,,セキュリティー・コスト合計 / メンテナンス対象面積合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-security-costs-area-maintained-metric
+M100,セキュリティー・コスト / メンテナンス対象面積,従属データ,セキュリティー・コスト合計,「サービス・タイプ」が「セキュリティー関連備品」でフィルタリングされた財務サマリー・テーブルの合計。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-security-costs-area-maintained-metric
+M100,セキュリティー・コスト / メンテナンス対象面積,従属データ,メンテナンス対象面積合計,フロア・レコードで「メンテナンスされた床」フィールドが「TRUE」である面積の合計。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-security-costs-area-maintained-metric
+M100,セキュリティー・コスト / メンテナンス対象面積,データを生む業務,,建物 (面積の計算),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-security-costs-area-maintained-metric
+M100,セキュリティー・コスト / メンテナンス対象面積,データを生む業務,,外部の企業システムからの財務データ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-security-costs-area-maintained-metric
+M100,セキュリティー・コスト / メンテナンス対象面積,格納先（ファクトBO）,triMetricFact,triBuildingFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-security-costs-area-maintained-metric
+M100,セキュリティー・コスト / メンテナンス対象面積,集計対象条件,,コスト・タイプ分類 = メンテナンス,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-security-costs-area-maintained-metric
+M101,サービス・タスク・コスト,計算式,,タスク・コストの合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-service-task-cost-metric
+M101,サービス・タスク・コスト,補足,,タスク・コスト、サブタブ・データ照会用: 関連する建物総面積、関連するタスク組織 (要求者、責任者),計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-service-task-cost-metric
+M101,サービス・タスク・コスト,データを生む業務,,サービス管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-service-task-cost-metric
+M101,サービス・タスク・コスト,データを生む業務,,サービス・タスク,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-service-task-cost-metric
+M101,サービス・タスク・コスト,データを生む業務,,取り込まれたタスク・コスト・データ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-service-task-cost-metric
+M101,サービス・タスク・コスト,格納先（ファクトBO）,triMetricFact,triTaskResourceFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-service-task-cost-metric
+M101,サービス・タスク・コスト,集計対象条件,,アクティブ状況のディメンションのみを含む,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-service-task-cost-metric
+M102,サービス・タスク・ボリューム,計算式,,タスク数,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-service-task-volume-metric
+M102,サービス・タスク・ボリューム,補足,,タスク・オブジェクトとタスク・コストのための関連するデータ、ロケーション、および建物データ,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-service-task-volume-metric
+M102,サービス・タスク・ボリューム,データを生む業務,,サービス管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-service-task-volume-metric
+M102,サービス・タスク・ボリューム,データを生む業務,,サービス・タスク,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-service-task-volume-metric
+M102,サービス・タスク・ボリューム,格納先（ファクトBO）,triMetricFact,triTaskResourceFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-service-task-volume-metric
+M102,サービス・タスク・ボリューム,集計対象条件,,アクティブ状況のディメンションのみを含む,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-service-task-volume-metric
+M103,サービス時間使用率,計算式,,タスクの合計時間 / 合計標準時間 (作業スケジュールに基づく),寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-service-time-utilization-metric
+M103,サービス時間使用率,判定条件,,タスク関連の時間エントリーの合計時間 = 該当する収集期間について関連付けられたタスクを持つ時間エントリーに記録された合計時間。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-service-time-utilization-metric
+M103,サービス時間使用率,判定条件,,時間エントリーの合計時間 = 該当する収集期間についてタスク関連の時間エントリー (分子) 内に収集された個人の作業スケジュールに基づく合計「標準」時間 (つまり 1 日 8 時間、週 40 時間など),計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-service-time-utilization-metric
+M103,サービス時間使用率,従属データ,,期間は時間ログの明細日付に基づきます (タイム・カード期間ではありません)。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-service-time-utilization-metric
+M103,サービス時間使用率,従属データ,,組織、ロケーション、および地域は、タイム・カード・エントリーの従業員の関連付けに基づきます。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-service-time-utilization-metric
+M103,サービス時間使用率,データを生む業務,,タスク管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-service-time-utilization-metric
+M103,サービス時間使用率,データを生む業務,,サービス管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-service-time-utilization-metric
+M103,サービス時間使用率,データを生む業務,,時間エントリー,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-service-time-utilization-metric
+M103,サービス時間使用率,格納先（ファクトBO）,triMetricFact,triResourceFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-service-time-utilization-metric
+M103,サービス時間使用率,集計対象条件,,なし,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-service-time-utilization-metric
+M104,サービス顧客満足度 - 運営,計算式,,調査回答スコアの合計 / 調査の最大スコアの合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-services-customer-satisfaction-operations-metric
+M104,サービス顧客満足度 - 運営,データを生む業務,,タスク管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-services-customer-satisfaction-operations-metric
+M104,サービス顧客満足度 - 運営,データを生む業務,,サービス管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-services-customer-satisfaction-operations-metric
+M104,サービス顧客満足度 - 運営,データを生む業務,,要求管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-services-customer-satisfaction-operations-metric
+M104,サービス顧客満足度 - 運営,格納先（ファクトBO）,triMetricFact,triSurveyFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-services-customer-satisfaction-operations-metric
+M104,サービス顧客満足度 - 運営,集計対象条件,,なし,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-services-customer-satisfaction-operations-metric
+M105,固形廃棄物,計算式,,廃棄物の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-solid-waste-metric
+M105,固形廃棄物,データを生む業務,,廃棄物ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-solid-waste-metric
+M105,固形廃棄物,格納先（ファクトBO）,triMetricFact,triWasteLogFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-solid-waste-metric
+M105,固形廃棄物,集計対象条件,,アクティブな土地 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブな廃棄物ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-solid-waste-metric
+M106,固形廃棄物,計算式,,固形廃棄物合計 (固形廃棄物合計、回収量/リサイクル量、および廃棄量による内訳),寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-solid-waste-type-metric
+M106,固形廃棄物,データを生む業務,,固形廃棄物ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-solid-waste-type-metric
+M106,固形廃棄物,格納先（ファクトBO）,triMetricFact,triLocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-solid-waste-type-metric
+M106,固形廃棄物,集計対象条件,,アクティブな土地 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブな廃棄物ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-solid-waste-type-metric
+M107,固形廃棄物回収 (%),計算式,,回収された固形廃棄物の合計 / 廃棄物使用の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-solid-waste-recovery-metric
+M107,固形廃棄物回収 (%),データを生む業務,,廃棄物ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-solid-waste-recovery-metric
+M107,固形廃棄物回収 (%),格納先（ファクトBO）,triMetricFact,triWasteLogFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-solid-waste-recovery-metric
+M107,固形廃棄物回収 (%),集計対象条件,,アクティブな土地 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブな廃棄物ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-solid-waste-recovery-metric
+M108,固形廃棄物回収 (%),計算式,,回収された固形廃棄物の合計 / 固形廃棄物の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-solid-waste-recovery-type-metric
+M108,固形廃棄物回収 (%),データを生む業務,,固形廃棄物ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-solid-waste-recovery-type-metric
+M108,固形廃棄物回収 (%),格納先（ファクトBO）,triMetricFact,triLocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-solid-waste-recovery-type-metric
+M108,固形廃棄物回収 (%),集計対象条件,,アクティブな土地 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブな廃棄物ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-solid-waste-recovery-type-metric
+M109,スペース・クラス内訳 (%),計算式,,スペース・クラス別の面積,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-space-class-breakdown-metric
+M109,スペース・クラス内訳 (%),補足,,面積: ドリル・パスまたは対話式フィルターによってフィルタリング/グループ化された面積,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-space-class-breakdown-metric
+M109,スペース・クラス内訳 (%),格納先（ファクトBO）,triMetricFact,triSpaceAllocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-space-class-breakdown-metric
+M109,スペース・クラス内訳 (%),集計対象条件,,アクティブな建物 アクティブなフロア アクティブなスペース,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-space-class-breakdown-metric
+M110,時間使用率サマリー (タイム・カード追跡),計算式,,時間エントリー時間の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-utilization-summary-metric
+M110,時間使用率サマリー (タイム・カード追跡),データを生む業務,,操作,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-utilization-summary-metric
+M110,時間使用率サマリー (タイム・カード追跡),データを生む業務,,タイム・カード,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-utilization-summary-metric
+M110,時間使用率サマリー (タイム・カード追跡),格納先（ファクトBO）,triMetricFact,triTimeEntryFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-utilization-summary-metric
+M110,時間使用率サマリー (タイム・カード追跡),集計対象条件,,アクティブ状況のディメンションのみを含む,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-time-utilization-summary-metric
+M111,作業場合計運用コスト ($) / ビジネス運営経費合計 ($),計算式,,作業場運用コスト合計 / ビジネス運用コスト合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-total-cost-operations-total-business-operating-expense-metric
+M111,作業場合計運用コスト ($) / ビジネス運営経費合計 ($),従属データ,作業場運用コスト合計,「運用」コストのみでフィルタリングされた財務サマリー・テーブルの合計。 これには、作業場に関係するすべての運用コスト値 (移動、ユーティリティー、保全、地面、メンテナンスなど) が含まれます。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-total-cost-operations-total-business-operating-expense-metric
+M111,作業場合計運用コスト ($) / ビジネス運営経費合計 ($),従属データ,ビジネス運用経費合計,「ビジネス運用経費」コストのみでフィルタリングされた財務サマリー・テーブルの合計。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-total-cost-operations-total-business-operating-expense-metric
+M111,作業場合計運用コスト ($) / ビジネス運営経費合計 ($),データを生む業務,,コスト・コード,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-total-cost-operations-total-business-operating-expense-metric
+M111,作業場合計運用コスト ($) / ビジネス運営経費合計 ($),データを生む業務,,地域,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-total-cost-operations-total-business-operating-expense-metric
+M111,作業場合計運用コスト ($) / ビジネス運営経費合計 ($),データを生む業務,,ロケーション,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-total-cost-operations-total-business-operating-expense-metric
+M111,作業場合計運用コスト ($) / ビジネス運営経費合計 ($),データを生む業務,,組織,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-total-cost-operations-total-business-operating-expense-metric
+M111,作業場合計運用コスト ($) / ビジネス運営経費合計 ($),格納先（ファクトBO）,triMetricFact,triBuildingFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-total-cost-operations-total-business-operating-expense-metric
+M111,作業場合計運用コスト ($) / ビジネス運営経費合計 ($),集計対象条件,,アクティブな建物 アクティブなコスト・コード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-total-cost-operations-total-business-operating-expense-metric
+M112,運用コスト合計/炭素排出量 (USD/トン CO2),計算式,,運用コスト合計 (TCO) / 合計 CO2e 出資比率報告、合計 CO2 出資比率報告、合計輸送出資比率報告、合計廃棄物出資比率報告,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-total-cost-operations-carbon-emissions-usd-tons-co2-metric
+M112,運用コスト合計/炭素排出量 (USD/トン CO2),データを生む業務,,輸送ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-total-cost-operations-carbon-emissions-usd-tons-co2-metric
+M112,運用コスト合計/炭素排出量 (USD/トン CO2),データを生む業務,,廃棄物ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-total-cost-operations-carbon-emissions-usd-tons-co2-metric
+M112,運用コスト合計/炭素排出量 (USD/トン CO2),データを生む業務,,財務状況の概要,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-total-cost-operations-carbon-emissions-usd-tons-co2-metric
+M112,運用コスト合計/炭素排出量 (USD/トン CO2),データを生む業務,,炭素フットプリント・ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-total-cost-operations-carbon-emissions-usd-tons-co2-metric
+M112,運用コスト合計/炭素排出量 (USD/トン CO2),格納先（ファクトBO）,triMetricFact,triLocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-total-cost-operations-carbon-emissions-usd-tons-co2-metric
+M112,運用コスト合計/炭素排出量 (USD/トン CO2),集計対象条件,,アクティブな土地 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブな炭素フットプリント・ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-total-cost-operations-carbon-emissions-usd-tons-co2-metric
+M113,合計占有コスト (TCO) ($/面積),計算式,,(運用コスト合計 + 固定資産提供コスト) / 合計賃貸可能面積,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-total-occupancy-cost-tco-area-metric
+M113,合計占有コスト (TCO) ($/面積),従属データ,,財務サマリー・オブジェクトは運用コストのサマリー・データを提供します,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-total-occupancy-cost-tco-area-metric
+M113,合計占有コスト (TCO) ($/面積),従属データ,面積,建物の賃貸可能面積 (平方フィートまたは平方メートル),計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-total-occupancy-cost-tco-area-metric
+M113,合計占有コスト (TCO) ($/面積),補足,,ファクト・テーブルでは、総面積と利用可能面積の値も取り込みます。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-total-occupancy-cost-tco-area-metric
+M113,合計占有コスト (TCO) ($/面積),格納先（ファクトBO）,triMetricFact,triBuildingFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-total-occupancy-cost-tco-area-metric
+M113,合計占有コスト (TCO) ($/面積),集計対象条件,,アクティブな建物,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-total-occupancy-cost-tco-area-metric
+M114,合計占有コスト (TCO) ($/人),計算式,,(運用コスト合計 + 固定資産提供コスト) / 作業者数の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-total-occupancy-cost-tco-person-metric
+M114,合計占有コスト (TCO) ($/人),従属データ,,財務サマリー・オブジェクトは運用コスト合計のサマリー・データを提供します,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-total-occupancy-cost-tco-person-metric
+M114,合計占有コスト (TCO) ($/人),従属データ,作業者,スペースに割り当てられる人。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-total-occupancy-cost-tco-person-metric
+M114,合計占有コスト (TCO) ($/人),格納先（ファクトBO）,triMetricFact,triBuildingFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-total-occupancy-cost-tco-person-metric
+M114,合計占有コスト (TCO) ($/人),集計対象条件,,アクティブな建物,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-total-occupancy-cost-tco-person-metric
+M115,合計占有コスト (TCO) (サービス・タイプ別),計算式,,運用コスト合計 + 固定資産提供コスト,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-total-occupancy-cost-tco-by-service-type-metric
+M115,合計占有コスト (TCO) (サービス・タイプ別),補足,,財務サマリー・オブジェクトは運用コスト合計のサマリー・データを提供します,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-total-occupancy-cost-tco-by-service-type-metric
+M115,合計占有コスト (TCO) (サービス・タイプ別),格納先（ファクトBO）,triMetricFact,triBuildingCostFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-total-occupancy-cost-tco-by-service-type-metric
+M115,合計占有コスト (TCO) (サービス・タイプ別),集計対象条件,,アクティブな建物,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-total-occupancy-cost-tco-by-service-type-metric
+M116,公共料金 / 面積 ($/面積),計算式,,公共料金合計 / 施設面積合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-utilities-costs-area-area-metric
+M116,公共料金 / 面積 ($/面積),従属データ,公共料金合計,「コスト・タイプ」が「公共料金」でフィルタリングされた財務サマリー・テーブルの合計。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-utilities-costs-area-area-metric
+M116,公共料金 / 面積 ($/面積),従属データ,合計面積,建物の賃貸可能面積,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-utilities-costs-area-area-metric
+M116,公共料金 / 面積 ($/面積),データを生む業務,,建物 (面積の計算),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-utilities-costs-area-area-metric
+M116,公共料金 / 面積 ($/面積),データを生む業務,,外部の企業システムからの財務データ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-utilities-costs-area-area-metric
+M116,公共料金 / 面積 ($/面積),格納先（ファクトBO）,triMetricFact,triBuildingFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-utilities-costs-area-area-metric
+M116,公共料金 / 面積 ($/面積),集計対象条件,,コスト・タイプ分類 = 公共料金,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-utilities-costs-area-area-metric
+M117,空きコスト – 不動産契約,計算式,,面積あたりのコスト / 空き面積合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-vacancy-cost-re-contracts-metric
+M117,空きコスト – 不動産契約,判定条件,,面積あたりのコスト = 合計不動産コスト: 支払品目から取り込まれた不動産コスト (時間でフィルタリングされたもの) / 不動産契約: 合計賃貸可能面積,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-vacancy-cost-re-contracts-metric
+M117,空きコスト – 不動産契約,従属データ,,不動産契約:,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-vacancy-cost-re-contracts-metric
+M117,空きコスト – 不動産契約,従属データ,,合計賃貸可能面積,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-vacancy-cost-re-contracts-metric
+M117,空きコスト – 不動産契約,従属データ,,空き合計,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-vacancy-cost-re-contracts-metric
+M117,空きコスト – 不動産契約,データを生む業務,,スペース利用契約 (不動産業),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-vacancy-cost-re-contracts-metric
+M117,空きコスト – 不動産契約,データを生む業務,,スペース割り振り (施設),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-vacancy-cost-re-contracts-metric
+M117,空きコスト – 不動産契約,格納先（ファクトBO）,triMetricFact,triREContractFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-vacancy-cost-re-contracts-metric
+M117,空きコスト – 不動産契約,集計対象条件,,アクティブな不動産契約 (開始日 < = 今日および満了日> = 今日以降、状況 NOT IN (「リタイア済み」、「解約済み」)),静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-vacancy-cost-re-contracts-metric
+M118,空き率 – 不動産契約,計算式,,空き面積合計 / 合計賃貸可能面積,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-vacancy-rate-re-contracts-metric
+M118,空き率 – 不動産契約,従属データ,不動産契約,空き面積合計,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-vacancy-rate-re-contracts-metric
+M118,空き率 – 不動産契約,従属データ,不動産契約,合計賃貸可能面積,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-vacancy-rate-re-contracts-metric
+M118,空き率 – 不動産契約,データを生む業務,,スペース利用契約 (不動産業),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-vacancy-rate-re-contracts-metric
+M118,空き率 – 不動産契約,データを生む業務,,スペース割り振り (施設),職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-vacancy-rate-re-contracts-metric
+M118,空き率 – 不動産契約,格納先（ファクトBO）,triMetricFact,triREContractFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-vacancy-rate-re-contracts-metric
+M118,空き率 – 不動産契約,集計対象条件,,アクティブな不動産契約 (開始日 < = 今日および満了日> = 今日以降、状況 NOT IN (「リタイア済み」、「解約済み」)),静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-vacancy-rate-re-contracts-metric
+M119,水利用,計算式,,水利用の合計 (水タイプ別),寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-water-use-metric
+M119,水利用,データを生む業務,,水位ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-water-use-metric
+M119,水利用,格納先（ファクトBO）,triMetricFact,triLocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-water-use-metric
+M119,水利用,集計対象条件,,アクティブな土地 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブな水ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-water-use-metric
+M120,水使用強度 (CF/GSF),計算式,,水利用の合計 / GSF,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-water-use-intensity-cf-gsf-metric
+M120,水使用強度 (CF/GSF),データを生む業務,,水位ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-water-use-intensity-cf-gsf-metric
+M120,水使用強度 (CF/GSF),格納先（ファクトBO）,triMetricFact,triLocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-water-use-intensity-cf-gsf-metric
+M120,水使用強度 (CF/GSF),集計対象条件,,土地の除外 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブな水ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-water-use-intensity-cf-gsf-metric
+M121,占有者あたりの水使用強度 (CF),計算式,,水利用の合計 / 占有者,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-water-use-intensity-per-occupant-cf-metric
+M121,占有者あたりの水使用強度 (CF),データを生む業務,,水位ログ,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-water-use-intensity-per-occupant-cf-metric
+M121,占有者あたりの水使用強度 (CF),格納先（ファクトBO）,triMetricFact,triLocationFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-water-use-intensity-per-occupant-cf-metric
+M121,占有者あたりの水使用強度 (CF),集計対象条件,,土地の除外 アクティブな建物 アクティブ構造物 アクティブな小売ロケーション アクティブな水ログ・レコード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-water-use-intensity-per-occupant-cf-metric
+M122,作業配分率,計算式,,タスク・タイプごとの完了済みタスクの合計コスト / 完了済みタスクの合計コスト,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-work-distribution-ratio-metric
+M122,作業配分率,従属データ,,タスク・タイプ別の完了タスクの合計コスト,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-work-distribution-ratio-metric
+M122,作業配分率,従属データ,,完了タスクの合計コスト,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-work-distribution-ratio-metric
+M122,作業配分率,データを生む業務,,タスク管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-work-distribution-ratio-metric
+M122,作業配分率,データを生む業務,,サービス管理,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-work-distribution-ratio-metric
+M122,作業配分率,格納先（ファクトBO）,triMetricFact,triTaskResourceFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-work-distribution-ratio-metric
+M122,作業配分率,集計対象条件,,アクティブ状況のディメンションのみを含む,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-work-distribution-ratio-metric
+M123,作業者使用率 (%),計算式,,作業者数の合計 / 作業ポイント数の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-worker-utilization-rate-metric
+M123,作業者使用率 (%),判定条件,作業ポイント合計,全体的なスペース・キャパシティー (「作業ポイント」=「TRUE」でフィルタリング),計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-worker-utilization-rate-metric
+M123,作業者使用率 (%),従属データ,作業者,建物内で割り当てられているすべての人,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-worker-utilization-rate-metric
+M123,作業者使用率 (%),格納先（ファクトBO）,triMetricFact,triSpacePeopleFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-worker-utilization-rate-metric
+M123,作業者使用率 (%),集計対象条件,,アクティブな建物 アクティブなフロア アクティブなスペース オフィス・ワーカー,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-worker-utilization-rate-metric
+M124,作業場合計運用コスト ($) /ビジネス総収益 ($),計算式,,作業場運用コスト合計/事業収益合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-workplace-total-cost-operations-business-total-revenue-metric
+M124,作業場合計運用コスト ($) /ビジネス総収益 ($),従属データ,作業場運用コスト合計,「運用」コストのみでフィルタリングされた財務サマリー・テーブルの合計。 これには、作業場に関係するすべての運用コスト値 (移動、ユーティリティー、保全、地面、メンテナンスなど) が含まれます。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-workplace-total-cost-operations-business-total-revenue-metric
+M124,作業場合計運用コスト ($) /ビジネス総収益 ($),従属データ,事業収益合計値,「収益」のみでフィルタリングされた財務サマリー・テーブルの合計。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-workplace-total-cost-operations-business-total-revenue-metric
+M124,作業場合計運用コスト ($) /ビジネス総収益 ($),データを生む業務,,コスト・コード,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-workplace-total-cost-operations-business-total-revenue-metric
+M124,作業場合計運用コスト ($) /ビジネス総収益 ($),データを生む業務,,地域,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-workplace-total-cost-operations-business-total-revenue-metric
+M124,作業場合計運用コスト ($) /ビジネス総収益 ($),データを生む業務,,ロケーション,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-workplace-total-cost-operations-business-total-revenue-metric
+M124,作業場合計運用コスト ($) /ビジネス総収益 ($),データを生む業務,,組織,職務の依存関係,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-workplace-total-cost-operations-business-total-revenue-metric
+M124,作業場合計運用コスト ($) /ビジネス総収益 ($),格納先（ファクトBO）,triMetricFact,triBuildingFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-workplace-total-cost-operations-business-total-revenue-metric
+M124,作業場合計運用コスト ($) /ビジネス総収益 ($),集計対象条件,,アクティブな建物 アクティブなコスト・コード,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=pmm-workplace-total-cost-operations-business-total-revenue-metric
+M125,作業ポイントの使用率 (%),計算式,,使用作業ポイント数/使用可能作業ポイント数の合計,寸法,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-workpoint-utilization-rate-metric
+M125,作業ポイントの使用率 (%),従属データ,使用作業ポイント,組織に割り当てられているスペースのスペース・キャパシティー。,計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-workpoint-utilization-rate-metric
+M125,作業ポイントの使用率 (%),判定条件,作業ポイント合計,全体的なスペース・キャパシティー (「作業ポイント」=「TRUE」でフィルタリング),計算対象の従属データ,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-workpoint-utilization-rate-metric
+M125,作業ポイントの使用率 (%),格納先（ファクトBO）,triMetricFact,triSpaceFact,ファクトの詳細,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-workpoint-utilization-rate-metric
+M125,作業ポイントの使用率 (%),集計対象条件,,アクティブな建物 アクティブなフロア アクティブなスペース,静的フィルター,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=metrics-workpoint-utilization-rate-metric

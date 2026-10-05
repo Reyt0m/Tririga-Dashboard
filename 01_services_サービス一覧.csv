@@ -1,0 +1,12 @@
+﻿サービスID,サービス名,製品名,区分,概要,指標数,経営陣向け指標数,うちライセンス明記,出典URL
+RE,不動産管理,IBM TRIRIGA Real Estate,業務,不動産取引の計画、リース・所有物件契約、リース会計、賃料などの支払を管理する。,27,11,27,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=managing-real-estate-assets
+FA,施設・スペース管理,IBM TRIRIGA Facilities,業務,スペースの割り当て、移動（引越し）、戦略的施設計画、予約を管理する。,48,25,26,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=planning-facilities-spaces-moves
+OP,運用・保守管理,IBM TRIRIGA Operations,業務,是正保全・予防保全、作業タスクの割り当て、在庫、調達、ベンダー契約を管理する。,40,28,29,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=maintaining-operations-services
+RC,リクエスト・セントラル,IBM TRIRIGA Request Central,業務,従業員からのサービス要求（修理・移動・問い合わせ）を受け付け、コンタクト・センターで処理する。,5,3,5,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=services-requesting-corrective-maintenance
+CP,資本プロジェクト管理,IBM TRIRIGA Capital Projects Manager,業務,資本プロジェクト・プログラムの予算、スケジュール、調達、変更、完了を管理する。,17,12,5,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=managing-programs-projects
+FAS,施設アセスメント,IBM TRIRIGA Facility Assessment,業務,建物・設備の劣化状態を評価し、改善機会と資金要求を管理する。,2,2,2,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=services-assessing-improving-physical-condition-facilities
+ES,不動産環境維持管理,IBM TRIRIGA Real Estate Environmental Sustainability,業務,エネルギー・水・廃棄物・排出量のデータを収集し、炭素フットプリントや ENERGY STAR 格付けを管理する。,35,11,33,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=managing-real-estate-environmental-sustainability
+WPM,ワークプレース・パフォーマンス管理,IBM TRIRIGA Workplace Performance Management,測定基盤,各サービスのデータから KPI（メトリック）を集計し、ロール別ポータルで経営陣・管理者に表示する測定基盤。本マップの全指標はここで提供される。,125,62,2,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=managing-workplace-performance
+PDM,ポートフォリオ・データ管理,IBM TRIRIGA Portfolio Data Manager,支援,組織・ロケーション（建物/フロア/スペース）・人物・資産などの基盤データ。全 KPI の集計軸（地域・組織・建物）を供給する。,0,0,0,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=managing-portfolio-data
+CAD,CAD / BIM 連携,"IBM TRIRIGA CAD Integrator/Publisher, Connector for BIM",支援,AutoCAD・Revit の図面からスペースの面積や境界を取り込む。面積系 KPI の元データとなる。,0,0,0,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=integrating-publishing-reporting-cad-bim-information
+DOC,文書管理,IBM TRIRIGA Document Management,支援,契約書や図面などのドキュメント・レコードと権限、ECM 連携を管理する。,0,0,0,https://www.ibm.com/docs/ja/tririga/11.6.0?topic=managing-documents
