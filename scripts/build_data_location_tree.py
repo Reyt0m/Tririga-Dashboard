@@ -5,8 +5,9 @@
 
 - 08: データ分類 → システム／保管場所（管理者）→ 帳票 → 項目 の順に並べた一覧
 - 09: 08 の左に4分類（大分類）を足し、項目の右に「項目の意味」（plain.py）を足した一覧
+- 11: 09 の小分類を「データ種別」（datatype.py）に置き換えた試作版
 07 に項目を足したときは、下の M（管理場所の記述→帳票）、G（B列が空欄の行の分類）、
-BIG_OF（4分類）と plain.py の PLAIN に新しい No を足してから実行する。足りないとエラーで止まる。
+BIG_OF（4分類）、plain.py の PLAIN、datatype.py の DATATYPE に新しい No を足してから実行する。足りないとエラーで止まる。
 --json <パス> を付けると、ツリー表示ページ用のデータ（JSON）も書き出す。
 """
 import csv, json, collections, sys, os, glob
@@ -206,6 +207,19 @@ w = csv.writer(open(OUT09, 'w', encoding='utf-8-sig', newline=''))
 BIG_ORDER = ['会計財務データ', '人事総務データ', '不動産管理データ', 'FM運営データ']
 w.writerow(['大分類', '小分類（B列）', 'システム／保管場所', '管理者', '種別', '帳票', 'No', '項目', '項目の意味', '取得難易度',
             '指標ID', '指標名', '計算式', '指標の説明', 'データを生む業務', '閲覧ロール', 'データ保持主体（原表）'])
+# 11（データ種別版・試作）: 09 の小分類（B列）を、大分類の中の「データ種別」に置き換えたもの
+from datatype import TYPE_OF, ORDER as TYPE_ORDER
+for n, (big, _) in TYPE_OF.items():
+    assert BIG_OF[n] == big, (n, big, BIG_OF[n])
+OUT11 = os.path.join(ROOT, '11_data_location_tree_datatype_データ所在ツリー_データ種別版.csv')
+w11 = csv.writer(open(OUT11, 'w', encoding='utf-8-sig', newline=''))
+w11.writerow(['大分類', 'データ種別', 'システム／保管場所', '管理者', '種別', '帳票', 'No', '項目', '項目の意味', '取得難易度',
+              '指標ID', '指標名', '計算式', '指標の説明', 'データを生む業務', '閲覧ロール', 'データ保持主体（原表）'])
+for f in sorted(flat, key=lambda x: (BIG_ORDER.index(x[0]), TYPE_ORDER.index(TYPE_OF[x[6]][1]), x[2], x[5], x[6])):
+    for mid in f[9].split():
+        m = METRICS[mid]
+        w11.writerow([f[0], TYPE_OF[f[6]][1]] + f[2:8] + [PLAIN[f[6]], f[8], mid, m['指標名'], m['計算式（寸法）'], m['説明'],
+                     m['データを生む業務（職務の依存関係）'], m['閲覧ロール']] + f[10:])
 # 09 は関連指標IDを1指標1行に分け、指標の中身を 02 から足す
 for f in sorted(flat, key=lambda x: (BIG_ORDER.index(x[0]), x[2], x[5], x[6])):
     for mid in f[9].split():
@@ -214,4 +228,4 @@ for f in sorted(flat, key=lambda x: (BIG_ORDER.index(x[0]), x[2], x[5], x[6])):
 w8 = csv.writer(open(OUT08, 'w', encoding='utf-8-sig', newline=''))
 w8.writerow(['データ分類', 'システム／保管場所', '管理者', '種別', '帳票', 'No', '項目', '取得難易度', '関連指標ID', 'データ保持主体（原表）'])
 for f in sorted((x[1:] for x in flat), key=lambda x: (x[0], x[1], x[4], x[5])): w8.writerow(f)
-print(f'08・09 を更新しました: {len(items)}項目、08は{len(links)}行、09は{sum(len(f[9].split()) for f in flat)}行')
+print(f'08・09・11 を更新しました: {len(items)}項目、08は{len(links)}行、09は{sum(len(f[9].split()) for f in flat)}行')
