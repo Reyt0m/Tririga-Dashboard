@@ -17,6 +17,7 @@ from plain import PLAIN
 SRC = glob.glob(os.path.join(ROOT, '07_*.csv'))[0]
 OUT08 = glob.glob(os.path.join(ROOT, '08_*.csv'))[0]
 OUT09 = glob.glob(os.path.join(ROOT, '09_*.csv'))[0]
+METRICS = {x['指標ID']: x for x in csv.DictReader(open(glob.glob(os.path.join(ROOT, '02_*.csv'))[0], encoding='utf-8-sig'))}
 rows = list(csv.reader(open(SRC, encoding='utf-8-sig')))[1:]
 
 # システム／保管場所（管理者と1対1）
@@ -203,9 +204,14 @@ if '--json' in sys.argv:
     json.dump(dict(items=items, links=links, systems=systems), open(sys.argv[sys.argv.index('--json') + 1], 'w', encoding='utf-8'), ensure_ascii=False)
 w = csv.writer(open(OUT09, 'w', encoding='utf-8-sig', newline=''))
 BIG_ORDER = ['会計財務データ', '人事総務データ', '不動産管理データ', 'FM運営データ']
-w.writerow(['大分類', '小分類（B列）', 'システム／保管場所', '管理者', '種別', '帳票', 'No', '項目', '項目の意味', '取得難易度', '関連指標ID', 'データ保持主体（原表）'])
-for f in sorted(flat, key=lambda x: (BIG_ORDER.index(x[0]), x[2], x[5], x[6])): w.writerow(f[:8] + [PLAIN[f[6]]] + f[8:])
+w.writerow(['大分類', '小分類（B列）', 'システム／保管場所', '管理者', '種別', '帳票', 'No', '項目', '項目の意味', '取得難易度',
+            '指標ID', '指標名', '計算式', '指標の説明', 'データ保持主体（原表）'])
+# 09 は関連指標IDを1指標1行に分け、指標の中身を 02 から足す
+for f in sorted(flat, key=lambda x: (BIG_ORDER.index(x[0]), x[2], x[5], x[6])):
+    for mid in f[9].split():
+        m = METRICS[mid]
+        w.writerow(f[:8] + [PLAIN[f[6]], f[8], mid, m['指標名'], m['計算式（寸法）'], m['説明']] + f[10:])
 w8 = csv.writer(open(OUT08, 'w', encoding='utf-8-sig', newline=''))
 w8.writerow(['データ分類', 'システム／保管場所', '管理者', '種別', '帳票', 'No', '項目', '取得難易度', '関連指標ID', 'データ保持主体（原表）'])
 for f in sorted((x[1:] for x in flat), key=lambda x: (x[0], x[1], x[4], x[5])): w8.writerow(f)
-print(f'08・09 を更新しました: {len(items)}項目、{len(links)}行')
+print(f'08・09 を更新しました: {len(items)}項目、08は{len(links)}行、09は{sum(len(f[9].split()) for f in flat)}行')
